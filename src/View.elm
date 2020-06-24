@@ -35,9 +35,19 @@ container content =
 
 displayGameRule : Rule -> Element msg
 displayGameRule rule =
-    column []
-        [ text rule.rule
-        , link []
+    column
+        [ spacing 30
+        , width <| px 800
+        ]
+        [ paragraph
+            [ Font.family
+                [ Font.typeface "Roboto Condensed"
+                , Font.sansSerif
+                ]
+            , Font.size 40
+            ]
+            [ text rule.rule ]
+        , link [ Font.underline, Font.italic ]
             { url = rule.url
             , label = text rule.game
             }
