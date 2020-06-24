@@ -6,14 +6,16 @@ import Json.Decode exposing (Decoder)
 type alias Rule =
     { game : String
     , rule : String
+    , url : String
     }
 
 
 ruleDecoder : Decoder Rule
 ruleDecoder =
-    Json.Decode.map2 Rule
+    Json.Decode.map3 Rule
         (Json.Decode.field "name" Json.Decode.string)
         (Json.Decode.field "rule" Json.Decode.string)
+        (Json.Decode.field "url" Json.Decode.string)
 
 
 allTheRules : List Rule
