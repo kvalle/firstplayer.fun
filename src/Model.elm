@@ -1,12 +1,14 @@
-module Model exposing (Model, init)
+module Model exposing (Model(..), init)
 
 import Rule exposing (Rule)
 
 
-type alias Model =
-    List Rule
+type Model
+    = Waiting
+    | AllIsGood Rule
+    | SomethingIsBad
 
 
 init : Model
 init =
-    Rule.allTheRules
+    Waiting

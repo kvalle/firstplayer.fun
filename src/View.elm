@@ -5,18 +5,21 @@ import Element.Background as Background
 import Element.Border as Border
 import Element.Font as Font
 import Html exposing (Html)
-import Model exposing (Model)
+import Model exposing (Model(..))
 import Rule exposing (Rule)
 
 
 view : Model -> Html msg
 view model =
     container <|
-        case List.head model of
-            Just rule ->
+        case model of
+            Waiting ->
+                text "Loading…"
+
+            AllIsGood rule ->
                 displayGameRule rule
 
-            Nothing ->
+            SomethingIsBad ->
                 errorMessage
 
 
@@ -27,7 +30,13 @@ errorMessage =
 
 container : Element msg -> Html msg
 container content =
-    Element.layout [] <|
+    Element.layout
+        [ Font.family
+            [ Font.typeface "Roboto Condensed"
+            , Font.sansSerif
+            ]
+        ]
+    <|
         row
             [ centerY, centerX ]
             [ content ]
@@ -40,12 +49,7 @@ displayGameRule rule =
         , width <| px 800
         ]
         [ paragraph
-            [ Font.family
-                [ Font.typeface "Roboto Condensed"
-                , Font.sansSerif
-                ]
-            , Font.size 40
-            ]
+            [ Font.size 40 ]
             [ text rule.rule ]
         , link [ Font.underline, Font.italic ]
             { url = rule.url

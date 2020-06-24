@@ -2,22 +2,41 @@ module Main exposing (main)
 
 import Browser
 import Html exposing (Html, text)
-import Json.Decode as JD
-import Model exposing (Model)
+import Json.Decode as JD exposing (Value)
+import Model exposing (Model(..))
+import Random
 import Rule exposing (Rule)
 import View exposing (view)
 
 
-main : Program JD.Value Model msg
+type Msg
+    = NewRandomRule Rule
+
+
+main : Program Value Model Msg
 main =
     Browser.element
-        { init = \_ -> ( Model.init, Cmd.none )
+        { init = init
         , subscriptions = \_ -> Sub.none
         , update = update
         , view = view
         }
 
 
-update : msg -> Model -> ( Model, Cmd msg )
+init : Value -> ( Model, Cmd Msg )
+init flags =
+    case Rule.ruleGenerator of
+        Nothing ->
+            ( Model.SomethingIsBad, Cmd.none )
+
+        Just generator ->
+            ( Model.Waiting, Random.generate NewRandomRule generator )
+
+
+update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
-    ( model, Cmd.none )
+    case msg of
+        NewRandomRule rule ->
+            ( AllIsGood rule
+            , Cmd.none
+            )

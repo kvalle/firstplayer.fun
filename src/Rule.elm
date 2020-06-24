@@ -1,6 +1,7 @@
-module Rule exposing (Rule, allTheRules)
+module Rule exposing (Rule, allTheRules, ruleGenerator)
 
 import Json.Decode exposing (Decoder)
+import Random exposing (Generator)
 
 
 type alias Rule =
@@ -16,6 +17,19 @@ ruleDecoder =
         (Json.Decode.field "name" Json.Decode.string)
         (Json.Decode.field "rule" Json.Decode.string)
         (Json.Decode.field "url" Json.Decode.string)
+
+
+ruleGenerator : Maybe (Generator Rule)
+ruleGenerator =
+    let
+        lastRules =
+            List.tail allTheRules |> Maybe.withDefault []
+
+        makeGenerator firstRule =
+            Random.uniform firstRule lastRules
+    in
+    List.head allTheRules
+        |> Maybe.map makeGenerator
 
 
 allTheRules : List Rule
@@ -169,7 +183,7 @@ rulesJson =
     "url": "https://boardgamegeek.com/boardgame/171668/grizzled"
   },
   {
-    "rule": "Each player receives a game sheet and a pen. The smartest among them takesthe six dice and starts the game.",
+    "rule": "Each player receives a game sheet and a pen. The smartest among them takes the six dice and starts the game.",
     "name": "That's Pretty Clever (aka Ganz schön clever)",
     "url": "https://boardgamegeek.com/boardgame/244522/s-pretty-clever"
   },
