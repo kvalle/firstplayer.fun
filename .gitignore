@@ -1,0 +1,7 @@
+notes.txt
+rulebooks/
+node_modules/
+elm-stuff/
+dist/
+.DS_Store
+.cache/
