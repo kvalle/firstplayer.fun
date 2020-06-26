@@ -120,7 +120,7 @@ rulesJson =
   {
     "rule": {
       "quote": "Whoever can stay under water the longest goes first. If that cannot be determined now, the oldest player starts.",
-      "paraphrase": "Whoever can stay under water the longest begins."
+      "paraphrase": "The player who can stay under water the longest begins."
     },
     "game": {
       "name": "The Reef",
@@ -517,7 +517,7 @@ rulesJson =
   {
     "rule": {
       "quote": "Whoever sat down first at the table goes first.",
-      "paraphrase": "Whoever sat down first at the table begins."
+      "paraphrase": "The player who sat down first at the table begins."
     },
     "game": {
       "name": "The Quest for El Dorado",
@@ -767,7 +767,7 @@ rulesJson =
   {
     "rule": {
       "quote": "The player with the best Egyptian credentials (a nose as famous as Cleopatra's, a mummified Crocodile pet, or an extensive hieroglyphic library) starts the game. Otherwise, the youngest player goes first.",
-      "paraphrase": "The player with the best Egyptian credentials (a nose as famous as Cleopatra's, a mummified Crocodile pet, or an extensive hieroglyphic library) begins."
+      "paraphrase": "The player with the best Egyptian credentials (e.g. a nose as famous as Cleopatra's, a mummified Crocodile pet, or an extensive hieroglyphic library) begins."
     },
     "game": {
       "name": "Cleopatra and the Society of Architects",
@@ -782,6 +782,36 @@ rulesJson =
     "game": {
       "name": "Zombie Dice",
       "url": "https://boardgamegeek.com/boardgame/62871/zombie-dice"
+    }
+  },
+  {
+    "game": {
+      "name": "The Pillars of the Earth",
+      "url": "https://boardgamegeek.com/boardgame/24480/pillars-earth"
+    },
+    "rule": {
+      "quote": "The last person to visit a cathedral goes first, and takes the first piece of the cathedral.",
+      "paraphrase": "The last person to visit a cathedral begins."
+    }
+  },
+  {
+    "game": {
+      "name": "Sator Arepo Tenet Opera Rotas",
+      "url": "https://boardgamegeek.com/boardgame/18500/sator-arepo-tenet-opera-rotas"
+    },
+    "rule": {
+      "quote": "The starting player is the one who last said a Psalm!",
+      "paraphrase": "The player who last said a Psalm begins."
+    }
+  },
+  {
+    "game": {
+      "name": "Carcassonne: Amazonas",
+      "url": "https://boardgamegeek.com/boardgame/206940/carcassonne-amazonas"
+    },
+    "rule": {
+      "quote": "The last player to have gone on a boat ride is the first player (or, alternately, the youngest).",
+      "paraphrase": "The last player to have gone on a boat ride begins."
     }
   }
 ]
