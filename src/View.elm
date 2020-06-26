@@ -1,26 +1,31 @@
 module View exposing (view)
 
+import Browser exposing (Document)
 import Element exposing (..)
 import Element.Background as Background
 import Element.Border as Border
 import Element.Font as Font
 import Html exposing (Html)
-import Model exposing (Model(..))
+import Model exposing (Model, PageState(..))
 import Rule exposing (Rule)
 
 
-view : Model -> Html msg
+view : Model -> Document msg
 view model =
-    container <|
-        case model of
-            Waiting ->
-                text "Loading…"
+    { title = "First Player Fun"
+    , body =
+        [ container <|
+            case model.state of
+                Waiting ->
+                    text "Loading…"
 
-            AllIsGood rule ->
-                displayGameRule rule
+                AllIsGood rule ->
+                    displayGameRule rule
 
-            SomethingIsBad ->
-                errorMessage
+                SomethingIsBad ->
+                    errorMessage
+        ]
+    }
 
 
 errorMessage : Element msg
