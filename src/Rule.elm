@@ -248,7 +248,7 @@ rulesJson =
     "url": "https://boardgamegeek.com/boardgame/171623/voyages-marco-polo"
   },
   {
-    "rule": "The most humble player goes first.  ",
+    "rule": "The most humble player goes first.",
     "name": "Everdell",
     "url": "https://boardgamegeek.com/boardgame/199792/everdell"
   },
@@ -263,12 +263,12 @@ rulesJson =
     "url": "https://boardgamegeek.com/boardgame/72125/eclipse"
   },
   {
-    "rule": "Give the Starting Player Marker to the player who most recently sacrificed some- thing. In case of a tie, give the Starting Player Marker to the player who volun- teers for the next sacrifice.",
+    "rule": "Give the Starting Player Marker to the player who most recently sacrificed something. In case of a tie, give the Starting Player Marker to the player who volunteers for the next sacrifice.",
     "name": "Tzolk'in: The Mayan Calendar",
     "url": "https://boardgamegeek.com/boardgame/126163/tzolk-mayan-calendar"
   },
   {
-    "rule": "Give  the  First  Player  token  to  the  player  who  was  born  furthest  to  the  north.",
+    "rule": "Give the First Player token to the player who was born furthest to the north.",
     "name": "Blood Rage",
     "url": "https://boardgamegeek.com/boardgame/170216/blood-rage"
   },
@@ -318,7 +318,7 @@ rulesJson =
     "url": "https://boardgamegeek.com/boardgame/199561/sagrada"
   },
   {
-    "rule": "Whoever can balance on one foot like a flamingo for the longest time,starts the game.",
+    "rule": "Whoever can balance on one foot like a flamingo for the longest time, starts the game.",
     "name": "Animal Upon Animal",
     "url": "https://boardgamegeek.com/boardgame/17329/animal-upon-animal"
   },
@@ -333,7 +333,7 @@ rulesJson =
     "url": "https://boardgamegeek.com/boardgame/161970/alchemists"
   },
   {
-    "rule": "The player with the huskiest voice is the starting player. The player withthe next huskiest voice is second, and so on.  Wizened old gamers may decide order randomly.",
+    "rule": "The player with the huskiest voice is the starting player. The player with the next huskiest voice is second, and so on.  Wizened old gamers may decide order randomly.",
     "name": "Snow Tails",
     "url": "https://boardgamegeek.com/boardgame/38054/snow-tails"
   },
@@ -358,8 +358,8 @@ rulesJson =
     "url": "https://boardgamegeek.com/boardgame/181810/kodama-tree-spirits"
   },
   {
-    "name": "Archaeology: The New Expedition ",
-    "rule": "The first player is the last person to have put their feet in the sand. ",
+    "name": "Archaeology: The New Expedition",
+    "rule": "The first player is the last person to have put their feet in the sand.",
     "url": "https://boardgamegeek.com/boardgame/191300/archaeology-new-expedition"
   },
   {
@@ -378,7 +378,7 @@ rulesJson =
     "url": "https://boardgamegeek.com/boardgame/59149/bunny-bunny-moose-moose"
   },
   {
-    "name": "Pharaoh's Gulo Gulo   ",
+    "name": "Pharaoh's Gulo Gulo",
     "rule": "The player who can best walk like a mummy may begin.",
     "url": "https://boardgamegeek.com/boardgame/175088/pharaohs-gulo-gulo"
   },
@@ -389,7 +389,7 @@ rulesJson =
   },
   {
     "name": "Hamburgum",
-    "rule": "The player who last visited a church becomes the start player. ",
+    "rule": "The player who last visited a church becomes the start player.",
     "url": "https://boardgamegeek.com/boardgame/30381/hamburgum"
   },
   {
@@ -414,7 +414,7 @@ rulesJson =
   },
   {
     "name": "Zombie Dice",
-    "rule": "The first player is the one who won the last game, or the one who can say“Braaaaains!” with the most feeling.",
+    "rule": "The first player is the one who won the last game, or the one who can say “Braaaaains!” with the most feeling.",
     "url": "https://boardgamegeek.com/boardgame/62871/zombie-dice"
   }
 ]
