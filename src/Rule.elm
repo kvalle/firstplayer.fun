@@ -39,7 +39,6 @@ ruleGenerator =
 allTheRules : List Rule
 allTheRules =
     Json.Decode.decodeString (Json.Decode.list ruleDecoder) rulesJson
-        |> Debug.log "error"
         |> Result.withDefault []
 
 
