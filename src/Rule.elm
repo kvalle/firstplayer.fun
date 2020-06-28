@@ -790,7 +790,7 @@ rulesJson =
     },
     "rule": {
       "quote": "The last person to visit a cathedral goes first, and takes the first piece of the cathedral.",
-      "paraphrase": "The last person to visit a cathedral begins."
+      "paraphrase": "The player who last visited a cathedral begins."
     }
   },
   {
@@ -811,6 +811,155 @@ rulesJson =
     "rule": {
       "quote": "The last player to have gone on a boat ride is the first player (or, alternately, the youngest).",
       "paraphrase": "The last player to have gone on a boat ride begins."
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player, who most recently visited a weekly market is the starting player.",
+      "paraphrase": "The player who most recently visited a weekly market begins."
+    },
+    "game": {
+      "name": "Fresh Fish",
+      "url": "https://boardgamegeek.com/boardgame/1017/fresh-fish"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever likes to eat cheese the most begins by rolling the die.",
+      "paraphrase": "The player who likes to eat cheese the most begins."
+    },
+    "game": {
+      "name": "Viva Topo!",
+      "url": "https://boardgamegeek.com/boardgame/8195/viva-topo"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The starting player is the player with the most money on them (the 'dearest player')",
+      "paraphrase": "The player with the most money on them begins."
+    },
+    "game": {
+      "name": "Antler Island",
+      "url": "https://boardgamegeek.com/boardgame/30483/antler-island"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the best penguin impression (as voted by anyone and everyone present) goes first.",
+      "paraphrase": "The player with the best penguin impression begins."
+    },
+    "game": {
+      "name": "Penguin Soccer",
+      "url": "https://boardgamegeek.com/boardgame/30760/penguin-soccer"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who is loudest in shouting “Olé!” starts.",
+      "paraphrase": "The player who is loudest in shouting “Olé!” begins."
+    },
+    "game": {
+      "name": "Salamanca",
+      "url": "https://boardgamegeek.com/boardgame/25409/salamanca"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last visited London starts.",
+      "paraphrase": "The player who last visited London begins."
+    },
+    "game": {
+      "name": "Portobello Market",
+      "url": "https://boardgamegeek.com/boardgame/27356/portobello-market"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The wisest player begins."
+    },
+    "game": {
+      "name": "Himalaya",
+      "url": "https://boardgamegeek.com/boardgame/3800/himalaya"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Zeus on the Loose is played in rounds, starting with the person whose first name is closest to Z.",
+      "paraphrase": "The player whose first name is closest to Z begins."
+    },
+    "game": {
+      "name": "Zeus on the Loose",
+      "url": "https://boardgamegeek.com/boardgame/22864/zeus-loose"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Decide who will be the first storyteller. This could  be  the  oldest  player,  the  youngest player, or (as is traditional — at least among bearded game designers) the player with the longest beard.",
+      "paraphrase": "The player with the longest beard begins."
+    },
+    "game": {
+      "name": "Once Upon a Time: The Storytelling Card Game",
+      "url": "https://boardgamegeek.com/boardgame/1234/once-upon-time-storytelling-card-game"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last read a portion of the Bible will be the starting player.",
+      "paraphrase": "The player who last read a portion of the Bible begins."
+    },
+    "game": {
+      "name": "The Ark of the Covenant",
+      "url": "https://boardgamegeek.com/boardgame/6779/ark-covenant"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Spillet startes av spilleren som ligner mest på en pirat.",
+      "paraphrase": "The player looks most like a pirate begins."
+    },
+    "game": {
+      "name": "Cartagena",
+      "url": "https://boardgamegeek.com/boardgame/826/cartagena"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who can make the best animal noise goes first, with the others following in clockwise order.",
+      "paraphrase": "The player who can make the best animal noise begins."
+    },
+    "game": {
+      "name": "Two by Two",
+      "url": "https://boardgamegeek.com/boardgame/66608/two-two"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has had the worst day goes first; if you’ve all had equally miserable days, the owner of the game takes the first turn.",
+      "paraphrase": "The player who has had the worst day begins."
+    },
+    "game": {
+      "name": "Gloom",
+      "url": "https://boardgamegeek.com/boardgame/12692/gloom"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who can refrain longest from laughing starts the game.",
+      "paraphrase": "The player who can refrain longest from laughing begins."
+    },
+    "game": {
+      "name": "Gheos",
+      "url": "https://boardgamegeek.com/boardgame/23730/gheos"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who lives in the largest house begins and lays down any number of his Coins onto the table. Play then continues clockwise around the table.",
+      "paraphrase": "The player who lives in the largest house begins."
+    },
+    "game": {
+      "name": "For Sale",
+      "url": "https://boardgamegeek.com/boardgame/172/sale"
     }
   }
 ]
