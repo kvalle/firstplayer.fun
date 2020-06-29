@@ -466,7 +466,7 @@ rulesJson =
   {
     "rule": {
       "quote": "Give the Starting Player Marker to the player who has spent the least time on planet Terra, in the Sol system.",
-      "paraphrase": "The player who has spent the least time on planet Terra, in the Sol system begins."
+      "paraphrase": "The player who has spent the least time on planet Terra, in the Sol system, begins."
     },
     "game": {
       "name": "Eclipse",
