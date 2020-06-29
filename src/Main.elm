@@ -32,12 +32,12 @@ init flags url key =
     in
     case url.path of
         "/" ->
-            ( model, Rule.getRandom NewRandomRule )
+            ( model, Rule.getRandom NewRule )
 
         path ->
             case path |> String.dropLeft 1 |> String.toInt of
                 Just index ->
-                    ( model, Rule.getByIndex index NewRandomRule )
+                    ( model, Rule.getByIndex index NewRule )
 
                 Nothing ->
                     ( { model | state = Error "Page not found" }, Cmd.none )
@@ -46,19 +46,19 @@ init flags url key =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        NewRandomRule (Ok ( index, rule )) ->
+        NewRule (Ok ( index, rule )) ->
             ( { model | state = ShowRule index rule }
             , Nav.pushUrl model.key ("/" ++ String.fromInt index)
             )
 
-        NewRandomRule (Err error) ->
+        NewRule (Err error) ->
             ( { model | state = Error error }
             , Cmd.none
             )
 
         GetRandomRule ->
             ( { model | state = Loading }
-            , Rule.getRandom NewRandomRule
+            , Rule.getRandom NewRule
             )
 
         UrlChanged url ->

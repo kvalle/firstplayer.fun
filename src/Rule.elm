@@ -32,7 +32,12 @@ getByIndex index msgWrapper =
             Task.attempt msgWrapper (Task.fail error)
 
         Ok rules ->
-            Task.attempt msgWrapper (Task.succeed <| ( index, Nonempty.get index rules ))
+            Task.attempt msgWrapper
+                (Task.succeed <|
+                    ( modBy (Nonempty.length rules) index
+                    , Nonempty.get index rules
+                    )
+                )
 
 
 ruleDecoder : Decoder Rule
