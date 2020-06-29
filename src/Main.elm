@@ -61,6 +61,11 @@ update msg model =
             , Rule.getRandom NewRule
             )
 
+        GetRuleByIndex index ->
+            ( { model | state = Loading }
+            , Rule.getByIndex index NewRule
+            )
+
         UrlChanged url ->
             ( model, Cmd.none )
 

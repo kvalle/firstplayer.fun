@@ -8,5 +8,6 @@ import Url exposing (Url)
 type Msg
     = NewRule (Result String ( Int, Rule ))
     | GetRandomRule
+    | GetRuleByIndex Int
     | UrlChanged Url
     | UrlRequested Browser.UrlRequest

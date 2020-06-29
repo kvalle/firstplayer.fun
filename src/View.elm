@@ -23,8 +23,8 @@ view model =
                 Loading ->
                     text "Loading…"
 
-                ShowRule _ rule ->
-                    displayGameRule rule
+                ShowRule index rule ->
+                    displayGameRule index rule
 
                 Error _ ->
                     errorMessage
@@ -51,8 +51,8 @@ container content =
             [ content ]
 
 
-displayGameRule : Rule -> Element Msg
-displayGameRule rule =
+displayGameRule : Int -> Rule -> Element Msg
+displayGameRule index rule =
     column
         [ spacing 30
         , width <| px 800
@@ -69,6 +69,16 @@ displayGameRule rule =
             []
             { onPress = Just GetRandomRule
             , label = row [] [ icon "shuffle", text "Random rule" ]
+            }
+        , Input.button
+            []
+            { onPress = Just <| GetRuleByIndex (index + 1)
+            , label = row [] [ icon "right", text "Next rule" ]
+            }
+        , Input.button
+            []
+            { onPress = Just <| GetRuleByIndex (index - 1)
+            , label = row [] [ icon "left", text "Previous rule" ]
             }
         ]
 
