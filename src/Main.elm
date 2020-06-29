@@ -1,6 +1,7 @@
 module Main exposing (main)
 
 import Browser
+import Browser.Events
 import Browser.Navigation as Nav exposing (Key)
 import Html exposing (Html, text)
 import Json.Decode as JD exposing (Value)
@@ -18,7 +19,7 @@ main =
         { init = init
         , onUrlChange = UrlChanged
         , onUrlRequest = UrlRequested
-        , subscriptions = \_ -> Sub.none
+        , subscriptions = subscriptions
         , update = update
         , view = view
         }
@@ -41,6 +42,34 @@ init flags url key =
 
                 Nothing ->
                     ( { model | state = Error "Page not found" }, Cmd.none )
+
+
+subscriptions model =
+    case model.state of
+        ShowRule index rule ->
+            JD.field "key" JD.string
+                |> JD.andThen
+                    (\key ->
+                        case key of
+                            "ArrowLeft" ->
+                                JD.succeed <| GetRuleByIndex (index - 1)
+
+                            "ArrowRight" ->
+                                JD.succeed <| GetRuleByIndex (index + 1)
+
+                            "r" ->
+                                JD.succeed <| GetRandomRule
+
+                            "R" ->
+                                JD.succeed <| GetRandomRule
+
+                            other ->
+                                JD.fail <| "Ignored key press: " ++ Debug.log "keypress" other
+                    )
+                |> Browser.Events.onKeyDown
+
+        _ ->
+            Sub.none
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
