@@ -64,7 +64,7 @@ subscriptions model =
                                 JD.succeed <| GetRandomRule
 
                             other ->
-                                JD.fail <| "Ignored key press: " ++ Debug.log "keypress" other
+                                JD.fail <| "Ignored key press: " ++ other
                     )
                 |> Browser.Events.onKeyDown
 
