@@ -526,7 +526,7 @@ rulesJson =
   {
     "rule": {
       "quote": "The player who has visited the most European countries in his lifetime begins the game.",
-      "paraphrase": "The player who has visited the most European countries in his lifetime begins."
+      "paraphrase": "The player who has visited the most European countries in their lifetime begins."
     },
     "game": {
       "name": "Ticket to Ride: Europe",
