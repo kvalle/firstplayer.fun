@@ -259,8 +259,8 @@ rulesJson =
   },
   {
     "rule": {
-      "quote": "The first player at the beginning of the game is the player who most recently had a great ideea (or random if you prefer).",
-      "paraphrase": "The player who most recently had a great ideea."
+      "quote": "The first player at the beginning of the game is the player who most recently had a great idea (or random if you prefer).",
+      "paraphrase": "The player who most recently had a great idea."
     },
     "game": {
       "name": "Tempus",
