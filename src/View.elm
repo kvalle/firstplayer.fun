@@ -4,13 +4,17 @@ import Browser exposing (Document)
 import Element exposing (..)
 import Element.Background as Background
 import Element.Border as Border
+import Element.Events as Events
 import Element.Font as Font
+import Element.Input as Input
 import Html exposing (Html)
+import Html.Attributes
 import Model exposing (Model, PageState(..))
+import Msg exposing (Msg(..))
 import Rule exposing (Rule)
 
 
-view : Model -> Document msg
+view : Model -> Document Msg
 view model =
     { title = "First Player Fun"
     , body =
@@ -28,12 +32,12 @@ view model =
     }
 
 
-errorMessage : Element msg
+errorMessage : Element Msg
 errorMessage =
     text "Oh no, something went wrong. Choose player randomly? ¯\\_(ツ)_/¯"
 
 
-container : Element msg -> Html msg
+container : Element Msg -> Html Msg
 container content =
     Element.layout
         [ Font.family
@@ -47,7 +51,7 @@ container content =
             [ content ]
 
 
-displayGameRule : Rule -> Element msg
+displayGameRule : Rule -> Element Msg
 displayGameRule rule =
     column
         [ spacing 30
@@ -60,4 +64,15 @@ displayGameRule rule =
             { url = rule.url
             , label = text rule.game
             }
+        , paragraph [ paddingXY 0 40, Font.color (rgb 0.7 0.7 0.7) ] [ text "—" ]
+        , Input.button
+            []
+            { onPress = Just GetRandomRule
+            , label = row [] [ icon "shuffle", text "Random rule" ]
+            }
         ]
+
+
+icon : String -> Element msg
+icon name =
+    el [ htmlAttribute <| Html.Attributes.class <| "icon-" ++ name ] Element.none

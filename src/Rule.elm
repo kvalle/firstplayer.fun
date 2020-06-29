@@ -1,7 +1,8 @@
-module Rule exposing (Rule, allTheRules, ruleGenerator)
+module Rule exposing (Rule, getRandom)
 
 import Json.Decode exposing (Decoder)
 import Random exposing (Generator)
+import Task
 
 
 type alias Rule =
@@ -9,6 +10,18 @@ type alias Rule =
     , rule : String
     , url : String
     }
+
+
+getRandom : (Result String Rule -> msg) -> Cmd msg
+getRandom msgWrapper =
+    case ruleGenerator of
+        Nothing ->
+            Task.attempt msgWrapper (Task.fail "Unable to generate rules")
+
+        Just generator ->
+            generator
+                |> Random.map Ok
+                |> Random.generate msgWrapper
 
 
 ruleDecoder : Decoder Rule

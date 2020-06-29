@@ -5,16 +5,11 @@ import Browser.Navigation as Nav exposing (Key)
 import Html exposing (Html, text)
 import Json.Decode as JD exposing (Value)
 import Model exposing (Model, PageState(..))
+import Msg exposing (Msg(..))
 import Random
 import Rule exposing (Rule)
 import Url exposing (Url)
 import View exposing (view)
-
-
-type Msg
-    = NewRandomRule Rule
-    | UrlChanged Url
-    | UrlRequested Browser.UrlRequest
 
 
 main : Program Value Model Msg
@@ -35,20 +30,25 @@ init flags url key =
         model =
             Model.init key
     in
-    case Rule.ruleGenerator of
-        Nothing ->
-            ( { model | state = SomethingIsBad }, Cmd.none )
-
-        Just generator ->
-            ( model, Random.generate NewRandomRule generator )
+    ( model, Rule.getRandom NewRandomRule )
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        NewRandomRule rule ->
+        NewRandomRule (Ok rule) ->
             ( { model | state = AllIsGood rule }
             , Cmd.none
+            )
+
+        NewRandomRule (Err error) ->
+            ( { model | state = SomethingIsBad }
+            , Cmd.none
+            )
+
+        GetRandomRule ->
+            ( { model | state = Waiting }
+            , Rule.getRandom NewRandomRule
             )
 
         UrlChanged url ->
