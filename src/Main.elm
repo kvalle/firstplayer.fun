@@ -30,7 +30,17 @@ init flags url key =
         model =
             Model.init key
     in
-    ( model, Rule.getRandom NewRandomRule )
+    case url.path of
+        "/" ->
+            ( model, Rule.getRandom NewRandomRule )
+
+        path ->
+            case path |> String.dropLeft 1 |> String.toInt of
+                Just index ->
+                    ( model, Rule.getByIndex index NewRandomRule )
+
+                Nothing ->
+                    ( { model | state = Error "Page not found" }, Cmd.none )
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )

@@ -1,4 +1,4 @@
-module Rule exposing (Rule, getRandom)
+module Rule exposing (Rule, getByIndex, getRandom)
 
 import Json.Decode exposing (Decoder)
 import List.Nonempty as Nonempty exposing (Nonempty)
@@ -23,6 +23,16 @@ getRandom msgWrapper =
             Random.int 0 (Nonempty.length rules)
                 |> Random.map (\index -> Ok ( index, Nonempty.get index rules ))
                 |> Random.generate msgWrapper
+
+
+getByIndex : Int -> (Result String ( Int, Rule ) -> msg) -> Cmd msg
+getByIndex index msgWrapper =
+    case listOfRules of
+        Err error ->
+            Task.attempt msgWrapper (Task.fail error)
+
+        Ok rules ->
+            Task.attempt msgWrapper (Task.succeed <| ( index, Nonempty.get index rules ))
 
 
 ruleDecoder : Decoder Rule
