@@ -36,18 +36,18 @@ init flags url key =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        NewRandomRule (Ok rule) ->
-            ( { model | state = AllIsGood rule }
-            , Cmd.none
+        NewRandomRule (Ok ( index, rule )) ->
+            ( { model | state = ShowRule index rule }
+            , Nav.pushUrl model.key ("/" ++ String.fromInt index)
             )
 
         NewRandomRule (Err error) ->
-            ( { model | state = SomethingIsBad }
+            ( { model | state = Error error }
             , Cmd.none
             )
 
         GetRandomRule ->
-            ( { model | state = Waiting }
+            ( { model | state = Loading }
             , Rule.getRandom NewRandomRule
             )
 

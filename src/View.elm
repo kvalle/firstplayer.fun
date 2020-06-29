@@ -20,13 +20,13 @@ view model =
     , body =
         [ container <|
             case model.state of
-                Waiting ->
+                Loading ->
                     text "Loading…"
 
-                AllIsGood rule ->
+                ShowRule _ rule ->
                     displayGameRule rule
 
-                SomethingIsBad ->
+                Error _ ->
                     errorMessage
         ]
     }

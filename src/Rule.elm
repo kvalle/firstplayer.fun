@@ -1,6 +1,7 @@
 module Rule exposing (Rule, getRandom)
 
 import Json.Decode exposing (Decoder)
+import List.Nonempty as Nonempty exposing (Nonempty)
 import Random exposing (Generator)
 import Task
 
@@ -12,15 +13,15 @@ type alias Rule =
     }
 
 
-getRandom : (Result String Rule -> msg) -> Cmd msg
+getRandom : (Result String ( Int, Rule ) -> msg) -> Cmd msg
 getRandom msgWrapper =
-    case ruleGenerator of
-        Nothing ->
-            Task.attempt msgWrapper (Task.fail "Unable to generate rules")
+    case listOfRules of
+        Err error ->
+            Task.attempt msgWrapper (Task.fail error)
 
-        Just generator ->
-            generator
-                |> Random.map Ok
+        Ok rules ->
+            Random.int 0 (Nonempty.length rules)
+                |> Random.map (\index -> Ok ( index, Nonempty.get index rules ))
                 |> Random.generate msgWrapper
 
 
@@ -36,23 +37,12 @@ ruleDecoder =
         (Json.Decode.at [ "game", "url" ] Json.Decode.string)
 
 
-ruleGenerator : Maybe (Generator Rule)
-ruleGenerator =
-    let
-        lastRules =
-            List.tail allTheRules |> Maybe.withDefault []
-
-        makeGenerator firstRule =
-            Random.uniform firstRule lastRules
-    in
-    List.head allTheRules
-        |> Maybe.map makeGenerator
-
-
-allTheRules : List Rule
-allTheRules =
+listOfRules : Result String (Nonempty Rule)
+listOfRules =
     Json.Decode.decodeString (Json.Decode.list ruleDecoder) rulesJson
-        |> Result.withDefault []
+        |> Result.mapError Json.Decode.errorToString
+        |> Result.map Nonempty.fromList
+        |> Result.andThen (Result.fromMaybe "List of rules is empty!")
 
 
 rulesJson : String

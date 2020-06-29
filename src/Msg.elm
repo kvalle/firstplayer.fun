@@ -6,7 +6,7 @@ import Url exposing (Url)
 
 
 type Msg
-    = NewRandomRule (Result String Rule)
+    = NewRandomRule (Result String ( Int, Rule ))
     | GetRandomRule
     | UrlChanged Url
     | UrlRequested Browser.UrlRequest

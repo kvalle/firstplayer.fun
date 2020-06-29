@@ -11,13 +11,13 @@ type alias Model =
 
 
 type PageState
-    = Waiting
-    | AllIsGood Rule
-    | SomethingIsBad
+    = Loading
+    | ShowRule Int Rule
+    | Error String
 
 
 init : Nav.Key -> Model
 init key =
-    { state = Waiting
+    { state = Loading
     , key = key
     }
