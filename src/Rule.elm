@@ -2044,6 +2044,36 @@ rulesJson =
       "name": "Consumption: Food and Choices",
       "url": "https://www.boardgamegeek.com/boardgame/198517/consumption-food-and-choices"
     }
+  },
+  {
+    "rule": {
+      "quote": "The player with the shortest name takes the first turn.",
+      "paraphrase": "The player with the shortest name begins."
+    },
+    "game": {
+      "name": "Nanofictionary",
+      "url": "https://www.boardgamegeek.com/boardgame/2895/nanofictionary"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last visited Namibia, or who has ever been closest to Namibia, becomes the start player for the setup phase and places their train on the 1 space of the player track.",
+      "paraphrase": "The player who last visited Namibia, or who has ever been closest to Namibia, begins."
+    },
+    "game": {
+      "name": "Namibia",
+      "url": "https://www.boardgamegeek.com/boardgame/55842/namibia"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the biggest ears is the starting player.",
+      "paraphrase": "The player with the biggest ears begins."
+    },
+    "game": {
+      "name": "Mythe",
+      "url": "https://www.boardgamegeek.com/boardgame/139629/mythe"
+    }
   }
 ]
 
