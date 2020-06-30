@@ -932,7 +932,8 @@ rulesJson =
   },
   {
     "rule": {
-      "quote": "Spillet startes av spilleren som ligner mest på en pirat.",
+      "quote": "The game is started by the player who looks most like a pirate.",
+      "note": "Translated from the Norwegian rules: Spillet startes av spilleren som ligner mest på en pirat.",
       "paraphrase": "The player looks most like a pirate begins."
     },
     "game": {
@@ -978,6 +979,459 @@ rulesJson =
     "game": {
       "name": "For Sale",
       "url": "https://boardgamegeek.com/boardgame/172/sale"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Dragon Farkle is played in turns, going clockwise, starting with the one who brought the most snacks.",
+      "paraphrase": "The player who brought the most snacks begins."
+    },
+    "game": {
+      "name": "Dragon Farkle",
+      "url": "https://www.boardgamegeek.com/boardgame/128174/dragon-farkle"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the best maniacal laugh shuffles the decks, and is the Teaching Assistant (TA) for the first turn.",
+      "paraphrase": "The player with the best maniacal laugh begins."
+    },
+    "game": {
+      "name": "Mad Scientist University",
+      "url": "https://boardgamegeek.com/boardgame/21666/mad-scientist-university"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who does the most convincing imitation of a giant monster starts the game.",
+      "paraphrase": "The player who does the most convincing imitation of a giant monster begins."
+    },
+    "game": {
+      "name": "Terror in Meeple City (aka Rampage)",
+      "url": "https://www.boardgamegeek.com/boardgame/97903/terror-meeple-city"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most recent player to caress a sheep is the First Player and takes the First Player token.",
+      "paraphrase": "The most recent player to caress a sheep begins."
+    },
+    "game": {
+      "name": "Sheepland",
+      "url": "https://www.boardgamegeek.com/boardgame/123576/sheepland"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the longest ancestry gets the start-player marker and begins.",
+      "note": "From translated rules on BGG",
+      "paraphrase": "The player with the longest ancestry begins."
+    },
+    "game": {
+      "name": "New England",
+      "url": "https://www.boardgamegeek.com/boardgame/5406/new-england"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the coldest nose tip will be the start player and takes the explorer pawn.",
+      "paraphrase": "The player with the coldest nose tip begins."
+    },
+    "game": {
+      "name": "Roll to the South Pole",
+      "url": "https://www.boardgamegeek.com/boardgame/118330/roll-south-pole"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The tallest player starts the game.",
+      "paraphrase": "The tallest player begins."
+    },
+    "game": {
+      "name": "Takenoko",
+      "url": "https://www.boardgamegeek.com/boardgame/70919/takenoko"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player that most recently prepared a drink is the first player and takes the First Player token.",
+      "paraphrase": "The player who most recently prepared a drink begins."
+    },
+    "game": {
+      "name": "Potion Explosion",
+      "url": "https://www.boardgamegeek.com/boardgame/180974/potion-explosion"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the best acting skills and reading voice takes the Case Booklet and the Start Player Token.",
+      "paraphrase": "The player with the best acting skills and reading voice begins."
+    },
+    "game": {
+      "name": "Watson & Holmes",
+      "url": "https://www.boardgamegeek.com/boardgame/182694/watson-holmes"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the Start Player marker to the player who most recently ate chocolate.",
+      "paraphrase": "The player who most recently ate chocolate begins."
+    },
+    "game": {
+      "name": "Chocolate Factory",
+      "url": "https://www.boardgamegeek.com/boardgame/240567/chocolate-factory"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Starting with the player who most recently wore a top hat and in a clockwise order, each player chooses a Magician with a Favorite Trick category not chosen before, then receives the respective Player Game Board and the following: […]",
+      "paraphrase": "The player who most recently wore a top hat begins."
+    },
+    "game": {
+      "name": "Trickerion: Legends of Illusion",
+      "url": "https://www.boardgamegeek.com/boardgame/163068/trickerion-legends-illusion"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever was most recently up a tower is the Starting Player and receives 2 white Bricks.",
+      "paraphrase": "The player who was most recently up a tower begins."
+    },
+    "game": {
+      "name": "Firenze",
+      "url": "https://www.boardgamegeek.com/boardgame/75449/firenze"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The First Player marker goes to the player who last moved to a new apartment/house.",
+      "paraphrase": "The player who last moved to a new apartment/house begins."
+    },
+    "game": {
+      "name": "Rise to Nobility",
+      "url": "https://www.boardgamegeek.com/boardgame/218293/rise-nobility"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last rolled a die in a game takes the starting player token.",
+      "paraphrase": "The player who last rolled a die in a game begins."
+    },
+    "game": {
+      "name": "Dice City",
+      "url": "https://www.boardgamegeek.com/boardgame/179572/dice-city"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently rode a train is first player.",
+      "paraphrase": "The player who most recently rode a train begins."
+    },
+    "game": {
+      "name": "Isle of Trains",
+      "url": "https://www.boardgamegeek.com/boardgame/154906/isle-trains"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has at some point travelled (closest) to the Forbidden City in China starts the game.",
+      "paraphrase": "The player who has been closest to the Forbidden City in China begins."
+    },
+    "game": {
+      "name": "Forbidden City",
+      "url": "https://www.boardgamegeek.com/boardgame/246316/forbidden-city"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has last performed an alchemical transmutation (or a player chosen at random) becomes the starting player and places one of their larger discs on the 1st space of the Current Round Order track on the main game board.",
+      "paraphrase": "The player who has last performed an alchemical transmutation begins."
+    },
+    "game": {
+      "name": "Trismegistus: The Ultimate Formula",
+      "url": "https://www.boardgamegeek.com/boardgame/281442/trismegistus-ultimate-formula"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player to last drink a cup of tea is the Starting Player, give them the Starting Player marker.",
+      "paraphrase": "The player to last drink a cup of tea begins."
+    },
+    "game": {
+      "name": "Alubari: A Nice Cup of Tea",
+      "url": "https://www.boardgamegeek.com/boardgame/228959/alubari-nice-cup-tea"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player that most recently smelled a flower is the first player.",
+      "paraphrase": "The player that most recently smelled a flower begins."
+    },
+    "game": {
+      "name": "Tussie Mussie",
+      "url": "https://www.boardgamegeek.com/boardgame/257614/tussie-mussie"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently worked the hardest becomes the first active player.",
+      "note": "Rule from the 'Royal Goods' version of the game",
+      "paraphrase": "The player who most recently worked hard begins."
+    },
+    "game": {
+      "name": "Oh My Goods!",
+      "url": "https://www.boardgamegeek.com/boardgame/183840/oh-my-goods"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever was most recently in Strasbourg (or a random player) is the Starting Player.",
+      "paraphrase": "The player who was most recently in Strasbourg begins."
+    },
+    "game": {
+      "name": "Strasbourg",
+      "url": "https://www.boardgamegeek.com/boardgame/91873/strasbourg"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The greediest player takes the First Player card (as everyone knows, the greediest person is the one with the most coins in his pockets!).",
+      "paraphrase": "The greediest player begins."
+    },
+    "game": {
+      "name": "The Bloody Inn",
+      "url": "https://www.boardgamegeek.com/boardgame/180593/bloody-inn"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who is best at keeping their word will be the starting player.",
+      "paraphrase": "The player who is best at keeping their word begins."
+    },
+    "game": {
+      "name": "Ponzi Scheme",
+      "url": "https://www.boardgamegeek.com/boardgame/180899/ponzi-scheme"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The person who washed their hands most recently goes first and play then proceeds clockwise.",
+      "paraphrase": "The player who washed their hands most recently begins."
+    },
+    "game": {
+      "name": "Plague Inc.: The Board Game",
+      "url": "https://www.boardgamegeek.com/boardgame/195162/plague-inc-board-game"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently had a “déjà vu” becomes First Player: place his Banner on the designated space next to the World Council Action spaces.",
+      "paraphrase": "The player who most recently had a “déjà vu” begins."
+    },
+    "game": {
+      "name": "Anachrony",
+      "url": "https://www.boardgamegeek.com/boardgame/185343/anachrony"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The first player is the player who most recently robbed a bank.",
+      "paraphrase": "The player who most recently robbed a bank begins."
+    },
+    "game": {
+      "name": "Escape Plan",
+      "url": "https://www.boardgamegeek.com/boardgame/142379/escape-plan"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the worst luck takes the first turn.",
+      "paraphrase": "The player with the worst luck begins."
+    },
+    "game": {
+      "name": "Karmaka",
+      "url": "https://www.boardgamegeek.com/boardgame/172552/karmaka"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Finally, the player with the highest value of actual cash on their person will be the first Sheriff.",
+      "paraphrase": "The player with the highest value of actual cash on their person begins."
+    },
+    "game": {
+      "name": "Sheriff of Nottingham",
+      "url": "https://www.boardgamegeek.com/boardgame/157969/sheriff-nottingham"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the freshest breath takes the starting player token and begins the game.",
+      "paraphrase": "The player with the freshest breath begins."
+    },
+    "game": {
+      "name": "Mint Delivery",
+      "url": "https://www.boardgamegeek.com/boardgame/230251/mint-delivery"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The first player is the player who strikes the most chivalrous pose, he takes the Excalibur pawn and starts the game.",
+      "paraphrase": "The player who strikes the most chivalrous pose begins."
+    },
+    "game": {
+      "name": "Medieval Academy",
+      "url": "https://www.boardgamegeek.com/boardgame/154386/medieval-academy"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever was last in Iceland begins. If nobody has been to Iceland, the player who most urgently wants to go to Iceland begins.",
+      "paraphrase": "The player who last went to Iceland begins."
+    },
+    "game": {
+      "name": "Hekla",
+      "url": "https://boardgamegeek.com/boardgame/3210/hekla"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the Gemstone to the player who has the most interesting thing in their pocket.",
+      "paraphrase": "The player who has the most interesting thing in their pocket begins."
+    },
+    "game": {
+      "name": "The Nacho Incident",
+      "url": "https://boardgamegeek.com/boardgame/19048/nacho-incident"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player wearing the most wool goes first, […]",
+      "note": "From the 'quick start' document posted on BGG.",
+      "paraphrase": "The player wearing the most wool begins."
+    },
+    "game": {
+      "name": "Mother Sheep",
+      "url": "https://boardgamegeek.com/boardgame/23598/mother-sheep"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently petted an animal starts first.",
+      "paraphrase": "The player who most recently petted an animal begins."
+    },
+    "game": {
+      "name": "Bye-Bye Black Sheep",
+      "url": "https://boardgamegeek.com/boardgame/231027/bye-bye-black-sheep"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who was the last to visit a real castle goes first.",
+      "paraphrase": "The player who last visited castle begins."
+    },
+    "game": {
+      "name": "Château Roquefort ",
+      "url": "https://boardgamegeek.com/boardgame/28089/chateau-roquefort"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most goblin-like player starts the game with the first Bomb and takes the first turn.",
+      "paraphrase": "The most goblin-like player begins."
+    },
+    "game": {
+      "name": "Big Badaboom",
+      "url": "https://boardgamegeek.com/boardgame/130227/big-badaboom"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The first player is the person who most recently finished reading a novel.",
+      "paraphrase": "The player who most recently finished reading a novel begins."
+    },
+    "game": {
+      "name": "Paperback",
+      "url": "https://boardgamegeek.com/boardgame/141572/paperback"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has seen the “The Godfather” the most times is the starting player. (The tiebreaker is Godfather II. After that, or alternately for the entire process, draw casino cards with the highest number going first.",
+      "paraphrase": "The player who has seen the “The Godfather” the most times begins."
+    },
+    "game": {
+      "name": "Gangster",
+      "url": "https://boardgamegeek.com/boardgame/25749/gangster"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The game is started by the player whose name sounds more archaic.",
+      "note": "Unofficial english translation on BGG.",
+      "paraphrase": "The player whose name sounds more archaic begins."
+    },
+    "game": {
+      "name": "Burgen Land",
+      "url": "https://boardgamegeek.com/boardgame/34001/burgen-land"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the longest eye-teeth begins: play continues in clockwise order.",
+      "paraphrase": "The player with the longest eyeteeth begins."
+    },
+    "game": {
+      "name": "Vampire",
+      "url": "https://boardgamegeek.com/boardgame/497/vampire"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The owner of the game (who always deals and plays first) shuffles the Nuclear War deck and deals nine cards to each player. […] The owner begins by playing any one Secret card of his choice from his hand, face down onto the table, pausing to allow spies (see below) to steal it.",
+      "paraphrase": "The player who owns the game begins."
+    },
+    "game": {
+      "name": "Nuclear War",
+      "url": "https://boardgamegeek.com/boardgame/713/nuclear-war"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The least wise player begins."
+    },
+    "game": {
+      "name": "Die Sieben Weisen",
+      "url": "https://boardgamegeek.com/boardgame/3231/die-sieben-weisen"
+    }
+  },
+  {
+    "rule": {
+      "quote": "For the first turn, the player who was in school most recently takes the teacher’s pet marker; the teacher’s pet goes first and has certain responsibilities during the turn.",
+      "paraphrase": "The player who was in school most recently begins."
+    },
+    "game": {
+      "name": "Saigo no Kane",
+      "url": "https://boardgamegeek.com/boardgame/32995/saigo-no-kane"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with most red hair has the first turn. He receives the active player marker.",
+      "paraphrase": "The player with the most red hair begins."
+    },
+    "game": {
+      "name": "Tàin",
+      "url": "https://boardgamegeek.com/boardgame/32992/tain"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever jumps highest may start and throw the red action dice.",
+      "paraphrase": "The player who can jump highest begins."
+    },
+    "game": {
+      "name": "Dancing Eggs",
+      "url": "https://boardgamegeek.com/boardgame/8924/dancing-eggs"
     }
   }
 ]
