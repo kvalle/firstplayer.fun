@@ -2074,6 +2074,531 @@ rulesJson =
       "name": "Mythe",
       "url": "https://www.boardgamegeek.com/boardgame/139629/mythe"
     }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently traveled abroad begins or randomly determines a starting player who will take the Starting Player Token.",
+      "paraphrase": "The player who has most recently traveled abroad begins."
+    },
+    "game": {
+      "name": "Walking in Burano",
+      "url": "https://www.boardgamegeek.com/boardgame/257769/walking-burano"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose a starting player, for example, the player who most recently drank mead from a cow horn.",
+      "paraphrase": "The player who most recently drank mead from a cow horn begins."
+    },
+    "game": {
+      "name": "Walhalla",
+      "url": "https://www.boardgamegeek.com/boardgame/25605/walhalla"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has traveled the closest to molten lava goes first (and the closer they’ve been to an active volcano, the more they get to brag).",
+      "paraphrase": "The player who has traveled the closest to molten lava begins."
+    },
+    "game": {
+      "name": "Volcano",
+      "url": "https://www.boardgamegeek.com/boardgame/13084/volcano"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the First Player Card to the player who has lived in the same place the longest.",
+      "paraphrase": "The player who has lived in the same place the longest begins."
+    },
+    "game": {
+      "name": "Villagers",
+      "url": "https://www.boardgamegeek.com/boardgame/241724/villagers"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The Start Player Ship is given to the player who has pillaged and razed the most defenseless villages.",
+      "paraphrase": "The player who has pillaged and razed the most defenseless villages begins."
+    },
+    "game": {
+      "name": "Vikings",
+      "url": "https://www.boardgamegeek.com/boardgame/27173/vikings"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Determine the first player. Whoever has the best evil laugh starts the game!",
+      "paraphrase": "The player who has the best evil laugh begins."
+    },
+    "game": {
+      "name": "Victorian Masterminds",
+      "url": "https://www.boardgamegeek.com/boardgame/189453/victorian-masterminds"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever is wearing the most colors is obviously the unicorniest, so they go first.",
+      "paraphrase": "The player wearing the most colors begins."
+    },
+    "game": {
+      "name": "Unstable Unicorns",
+      "url": "https://www.boardgamegeek.com/boardgame/234190/unstable-unicorns"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player that looks moste like Henry VIII or one of his wives is voted for as the start player.",
+      "paraphrase": "The player that looks moste like Henry VIII, or one of his wives, begins."
+    },
+    "game": {
+      "name": "Tudor",
+      "url": "https://www.boardgamegeek.com/boardgame/219512/tudor"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Decide who starts the game by who has last opened a lock (in real life), even with a key!",
+      "paraphrase": "The player who last opened a lock begins."
+    },
+    "game": {
+      "name": "Triplock",
+      "url": "https://www.boardgamegeek.com/boardgame/229791/triplock"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the dice to the player who most recently watched the Thunderbirds TV show. They will be the starting player.",
+      "paraphrase": "The player who most recently watched the Thunderbirds TV show begins."
+    },
+    "game": {
+      "name": "Thunderbirds",
+      "url": "https://www.boardgamegeek.com/boardgame/160610/thunderbirds"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Start Player Marker: Give this to the player who most recently stole something.",
+      "paraphrase": "The player who most recently stole something begins."
+    },
+    "game": {
+      "name": "Thief's Market",
+      "url": "https://www.boardgamegeek.com/boardgame/182351/thiefs-market"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently defeated a Worm in combat is the starting player.",
+      "paraphrase": "The player who most recently defeated a worm in combat begins."
+    },
+    "game": {
+      "name": "Terror Below",
+      "url": "https://www.boardgamegeek.com/boardgame/270138/terror-below"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Determine who in your group is the most knowledgeable, and give the box of Terra cards to the player directly to his left.",
+      "paraphrase": "The (player to the left of) the most knowledgeable player begins."
+    },
+    "game": {
+      "name": "Terra",
+      "url": "https://www.boardgamegeek.com/boardgame/153507/terra"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last found a pot of gold is the starting player. If no-one has ever found a pot of gold, then the game ends immediately and everyone loses. Alternatively, the youngest player can start… The start player takes the Key card, puts it in front of him and is now called the 'key player'.",
+      "note": "Translation from the german rules on BGG.",
+      "paraphrase": "The player who last found a pot of gold begins."
+    },
+    "game": {
+      "name": "Tempel des Schreckens",
+      "url": "https://www.boardgamegeek.com/boardgame/206915/tempel-des-schreckens"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last person to harvest a vegetable becomes the first player. Alternatively, randomly determine the first player using a method of your choosing.",
+      "paraphrase": "The last player to harvest a vegetable begins."
+    },
+    "game": {
+      "name": "Tawantinsuyu: The Inca Empire",
+      "url": "https://www.boardgamegeek.com/boardgame/306481/tawantinsuyu-inca-empire"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently went on a journey is the starting player.",
+      "paraphrase": "The player who most recently went on a journey begins."
+    },
+    "game": {
+      "name": "Swamped",
+      "url": "https://www.boardgamegeek.com/boardgame/173770/swamped"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The one who shout the loudest 'I will crush you all' begins the game.",
+      "note": "Translated from the french rules.",
+      "paraphrase": "The player who shout “I will crush you all!” the loudest begins."
+    },
+    "game": {
+      "name": "Stratelite",
+      "url": "https://www.boardgamegeek.com/boardgame/14181/stratelite"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The least punctual person is the starting player.",
+      "paraphrase": "The least punctual player begins."
+    },
+    "game": {
+      "name": "Steam Time",
+      "url": "https://www.boardgamegeek.com/boardgame/180592/steam-time"
+    }
+  },
+  {
+    "rule": {
+      "quote": "If one player has a character with more pips than any other, that player begins. Otherwise the player who has most recently watched an episode of Star Trek goes first.",
+      "paraphrase": "The player who has most recently watched an episode of Star Trek begins."
+    },
+    "game": {
+      "name": "Star Trek Chrono-Trek",
+      "url": "https://www.boardgamegeek.com/boardgame/268276/star-trek-chrono-trek"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the Initiative Marker to the player who went stargazing most recently or choose who will play first.",
+      "paraphrase": "The player who went stargazing most recently begins."
+    },
+    "game": {
+      "name": "Space Race: The Card Game",
+      "url": "https://www.boardgamegeek.com/boardgame/191177/space-race-card-game"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the First Player marker to the player who has been to space most recently. If no-one has ever been into space, then the player who most recently watched or read something about space receives the marker and begins the game.",
+      "paraphrase": "The player who has been to space most recently begins. If tied, choose the player who most recently watched or read something about space."
+    },
+    "game": {
+      "name": "Space Explorers",
+      "url": "https://www.boardgamegeek.com/boardgame/235817/space-explorers"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most has “their head in the clouds” is the first ”player.",
+      "paraphrase": "The player who most has “their head in the clouds” begins."
+    },
+    "game": {
+      "name": "Solenia",
+      "url": "https://www.boardgamegeek.com/boardgame/254018/solenia"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player seated nearest to a solid door-frame goes first, and play proceeds clock-wise around the table.",
+      "paraphrase": "The player seated nearest to a solid door-frame begins."
+    },
+    "game": {
+      "name": "Seismic",
+      "url": "https://www.boardgamegeek.com/boardgame/22673/seismic"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The Foreman born closest to Samara is start player, the second-most close born is second player, and so on.",
+      "paraphrase": "The player born closest to Samara begins."
+    },
+    "game": {
+      "name": "Samara",
+      "url": "https://www.boardgamegeek.com/boardgame/177490/samara"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever waves the most quickly with the highest real bill or has brought a real welding torch to the game goes first.",
+      "note": "Translated from the german rules.",
+      "paraphrase": "The player who first waves with the highest denomination real bill (or has brought a real welding torch) begins."
+    },
+    "game": {
+      "name": "Die Safeknacker",
+      "url": "https://www.boardgamegeek.com/boardgame/3349/die-safeknacker"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who looks the oldest is the start-player.",
+      "paraphrase": "The player who looks the oldest begins."
+    },
+    "game": {
+      "name": "Ruhe in Frieden",
+      "url": "https://www.boardgamegeek.com/boardgame/8185/ruhe-frieden"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently purchased tomatoes is named the start player and takes the start player card.",
+      "paraphrase": "The player who most recently purchased tomatoes begins."
+    },
+    "game": {
+      "name": "Reykholt",
+      "url": "https://www.boardgamegeek.com/boardgame/241831/reykholt"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player who drank something with a particularly strange taste will be the first player.",
+      "paraphrase": "The last player who drank something with a particularly strange taste begins."
+    },
+    "game": {
+      "name": "Rebis",
+      "url": "https://www.boardgamegeek.com/boardgame/301085/rebis"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose a start player according to your preferred method (the player who owns the most railroad games).",
+      "paraphrase": "The player who owns the most railroad games begins."
+    },
+    "game": {
+      "name": "Railroad Dice",
+      "url": "https://www.boardgamegeek.com/boardgame/8192/railroad-dice"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the First Player marker to the poor soul who was most recently caught in the rain.",
+      "paraphrase": "The player who was most recently caught in the rain begins."
+    },
+    "game": {
+      "name": "Petrichor",
+      "url": "https://www.boardgamegeek.com/boardgame/210274/petrichor"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever went to the bathroom last is the starting player.",
+      "paraphrase": "The player who last went to the bathroom begins."
+    },
+    "game": {
+      "name": "Pecunia non olet",
+      "url": "https://boardgamegeek.com/boardgame/209672/pecunia-non-olet-second-edition"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who was most recently sick goes first.",
+      "note": "This rule has been changed in the newer version of the game.",
+      "paraphrase": "The player who was most recently sick begins."
+    },
+    "game": {
+      "name": "Pandemic",
+      "url": "https://www.boardgamegeek.com/boardgame/30549/pandemic"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player to have visited or seen a picture of Italy is the start player.",
+      "paraphrase": "The last player to have visited or seen a picture of Italy begins."
+    },
+    "game": {
+      "name": "The Palaces of Carrara",
+      "url": "https://www.boardgamegeek.com/boardgame/129948/palaces-carrara"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever last ate with chopsticks, takes the start player marker.",
+      "paraphrase": "The player who last ate with chopsticks begins."
+    },
+    "game": {
+      "name": "Pagoda",
+      "url": "https://www.boardgamegeek.com/boardgame/154003/pagoda"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently ate pie starts the game and play continues to the left.",
+      "paraphrase": "The player who most recently ate pie begins."
+    },
+    "game": {
+      "name": "Outfoxed!",
+      "url": "https://www.boardgamegeek.com/boardgame/172931/outfoxed"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most evolved player (or in case of doubt choose randomly) will be the first player.",
+      "paraphrase": "The most evolved player begins."
+    },
+    "game": {
+      "name": "On the Origin of Species",
+      "url": "https://www.boardgamegeek.com/boardgame/276004/origin-species"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose who is the first active player (for instance who lives closer to Venice).",
+      "paraphrase": "The player who lives closest to Venice begins."
+    },
+    "game": {
+      "name": "Oltre Mare",
+      "url": "https://www.boardgamegeek.com/boardgame/13551/oltre-mare"
+    }
+  },
+  {
+    "rule": {
+      "quote": "If you most recently received a gift, go first.",
+      "paraphrase": "The player who most recently received a gift begins."
+    },
+    "game": {
+      "name": "No Thanks!",
+      "url": "https://www.boardgamegeek.com/boardgame/12942/no-thanks"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most silent player takes the dice and becomes the first player.",
+      "paraphrase": "The most silent player begins."
+    },
+    "game": {
+      "name": "Ninja Taisen",
+      "url": "https://www.boardgamegeek.com/boardgame/162041/ninja-taisen"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The person with the least amount of hair goes first and play continues to the left.",
+      "paraphrase": "The player with the least amount of hair begins."
+    },
+    "game": {
+      "name": "Dweebies",
+      "url": "https://boardgamegeek.com/boardgame/65814/dweebies"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who looks most like a mobster takes the Capo Ring and is the First player.",
+      "note": "The revised edition has changed the wording to 'most like a gangster'.",
+      "paraphrase": "The player who looks most like a mobster begins."
+    },
+    "game": {
+      "name": "Nothing Personal",
+      "url": "https://boardgamegeek.com/boardgame/120523/nothing-personal"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The first player is the person that most recently rode a train.",
+      "paraphrase": "The player that most recently rode a train begins."
+    },
+    "game": {
+      "name": "Skyline Express: Roll & Write",
+      "url": "https://boardgamegeek.com/boardgame/299251/skyline-express-roll-write"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently visited a high-rise building is the start player.",
+      "paraphrase": ""
+    },
+    "game": {
+      "name": "Skyline",
+      "url": "https://boardgamegeek.com/boardgame/121423/skyline"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever was the last to be in a city center becomes the starting player and receives the starting player figure.",
+      "paraphrase": "The player who was last in a city center begins."
+    },
+    "game": {
+      "name": "Forum Trajanum",
+      "url": "https://boardgamegeek.com/boardgame/244049/forum-trajanum"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most suspicious-looking player is the dealer in the first round.",
+      "paraphrase": "The most suspicious-looking player begins."
+    },
+    "game": {
+      "name": "Spyfall",
+      "url": "https://boardgamegeek.com/boardgame/166384/spyfall"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last person who drank rum is First Player. Give him the Parrot and the Hat tokens.",
+      "paraphrase": "The last player who drank rum begins."
+    },
+    "game": {
+      "name": "Sea of Clouds",
+      "url": "https://boardgamegeek.com/boardgame/189052/sea-clouds"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has the most cats in real life is the starting player and takes the first turn of the game.",
+      "paraphrase": "The player who has the most cats begins."
+    },
+    "game": {
+      "name": "Cat Lady",
+      "url": "https://boardgamegeek.com/boardgame/228504/cat-lady"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Determine the first active player by asking who has most recently been abducted by the CIA or the KGB. Or choose the first active player randomly.",
+      "paraphrase": "The player who has most recently been abducted by the CIA or the KGB beings."
+    },
+    "game": {
+      "name": "Secrets",
+      "url": "https://boardgamegeek.com/boardgame/200847/secrets"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Pick a player to go first. (Some sample criteria: furriest, most recent tantrum, most body parts, etc.)",
+      "paraphrase": "The player who had the most recent tantrum begins."
+    },
+    "game": {
+      "name": "Bears vs Babies",
+      "url": "https://boardgamegeek.com/boardgame/211534/bears-vs-babies"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Pick a first player by deciding who loves bears the most.",
+      "paraphrase": "The player who loves bears the most begins."
+    },
+    "game": {
+      "name": "Ursa Miner",
+      "url": "https://boardgamegeek.com/boardgame/226006/ursa-miner"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The person who has most recently been to Rio de Janeiro goes first. If this results in a tie, put the game away and never play it again. Or randomly pick a starting player.",
+      "paraphrase": "The player who has most recently been to Rio de Janeiro begins."
+    },
+    "game": {
+      "name": "Favelas",
+      "url": "https://boardgamegeek.com/boardgame/230591/favelas"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has visited the most continents is the start player. Give that player the first player dragon.",
+      "paraphrase": "The player who has visited the most continents begins."
+    },
+    "game": {
+      "name": "Helios",
+      "url": "https://boardgamegeek.com/boardgame/154182/helios"
+    }
   }
 ]
 
