@@ -1908,7 +1908,7 @@ rulesJson =
   {
     "rule": {
       "quote": "The player who most recently was in South America or who rolls highest with 2 dice becomes the Start Player and receives the Start Player Token.",
-      "paraphrase": "The player who was most recently South America begins."
+      "paraphrase": "The player who was most recently in South America begins."
     },
     "game": {
       "name": "El Gaucho",
