@@ -2599,6 +2599,226 @@ rulesJson =
       "name": "Helios",
       "url": "https://boardgamegeek.com/boardgame/154182/helios"
     }
+  },
+  {
+    "rule": {
+      "quote": "Whoever last visited Ireland starts the game. Failing that, the oldest player begins.",
+      "note": "From unofficial translation on BoardGameGeek.",
+      "paraphrase": "The player who last visited Ireland begins."
+    },
+    "game": {
+      "name": "Keltis",
+      "url": "https://boardgamegeek.com/boardgame/34585/keltis"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently visited a farm goes first!",
+      "paraphrase": "The player who most recently visited a farm begins."
+    },
+    "game": {
+      "name": "Farmageddon",
+      "url": "https://boardgamegeek.com/boardgame/102897/farmageddon"
+    }
+  },
+  {
+    "rule": {
+      "quote": "To begin, the player who can name the most of Jupiter’s moon takes the first turn. Players begin by declaring the number of moons they are able to name and then name them in any order.",
+      "paraphrase": "The player who can name the most of Jupiter’s moons begins."
+    },
+    "game": {
+      "name": "Exoplanets",
+      "url": "https://boardgamegeek.com/boardgame/163976/exoplanets"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The shortest player is chosen to be the first player, that player gets the first player token.",
+      "paraphrase": "The shortest player begins."
+    },
+    "game": {
+      "name": "Myrmes",
+      "url": "https://boardgamegeek.com/boardgame/126792/myrmes"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently used a wok starts the game.",
+      "paraphrase": "The player who has most recently used a wok begins."
+    },
+    "game": {
+      "name": "We Will Wok You",
+      "url": "https://boardgamegeek.com/boardgame/121993/we-will-wok-you"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who does the best imitation of a woolly mammoth goes first.",
+      "paraphrase": "The player who does the best imitation of a woolly mammoth begins."
+    },
+    "game": {
+      "name": "Ooga Booga",
+      "url": "https://boardgamegeek.com/boardgame/106753/ooga-booga"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the best story about being stranded by their own accord goes first, or roll the number die and whoever rolls the highest goes first. ",
+      "paraphrase": "The player with the best story about being stranded by their own accord begins."
+    },
+    "game": {
+      "name": "Lift Off! Get me off this Planet!",
+      "url": "https://boardgamegeek.com/boardgame/161681/lift-get-me-planet"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The tallest player begins."
+    },
+    "game": {
+      "name": "Campanile",
+      "url": "https://boardgamegeek.com/boardgame/301/campanile"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The president leads the country each turn. Whoever has the most money on his or her person is the first president. (Yes, real money.)",
+      "paraphrase": "The player with most money on his or her person begins."
+    },
+    "game": {
+      "name": "Corporate America",
+      "url": "https://boardgamegeek.com/boardgame/125943/corporate-america"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently visited London is the start player. Alternatively choose randomly.",
+      "paraphrase": "The player who most recently visited London begins."
+    },
+    "game": {
+      "name": "The Great Fire of London 1666",
+      "url": "https://boardgamegeek.com/boardgame/41569/great-fire-london-1666"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently bought or sold something (in real life) gets to be the first player. The tiebreaker goes to the person who has known the owner of this game the longest.",
+      "paraphrase": "The player who most recently bought or sold something (in real life) begins."
+    },
+    "game": {
+      "name": "Mercante",
+      "url": "https://boardgamegeek.com/boardgame/122890/mercante"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently visited a forest goes first.",
+      "paraphrase": "The player who most recently visited a forest begins."
+    },
+    "game": {
+      "name": "Lagoon: Land of Druids",
+      "url": "https://boardgamegeek.com/boardgame/152053/lagoon-land-druids"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player that has most recently committed a legal infraction, no matter how minor, is the start player and will go first.",
+      "paraphrase": ""
+    },
+    "game": {
+      "name": "Grifters",
+      "url": "https://boardgamegeek.com/boardgame/168054/grifters"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who looks the most like a zombie takes the First Player token.",
+      "paraphrase": "The player who looks the most like a zombie begins."
+    },
+    "game": {
+      "name": "City of Horror",
+      "url": "https://boardgamegeek.com/boardgame/120217/city-horror"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever has a squarer head goes first.",
+      "paraphrase": "The player with the squarest head begins."
+    },
+    "game": {
+      "name": "Cube Quest",
+      "url": "https://boardgamegeek.com/boardgame/137330/cube-quest"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last played a train game goes first; give them the Start Player figure. In the event of a tie, the last player who played a game set in Ancient Egypt goes first. If still tied, the player who last ate a piece of fruit goes first.",
+      "paraphrase": "The player who last played a train game begins."
+    },
+    "game": {
+      "name": "Cleopatra’s Caboose",
+      "url": "https://boardgamegeek.com/boardgame/24795/cleopatras-caboose"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player whose sign of the zodiac will next rule the sky – that is, whose birthday will come next – takes the first turn.",
+      "paraphrase": "The player whose birthday is next begins."
+    },
+    "game": {
+      "name": "The Stars are Right",
+      "url": "https://boardgamegeek.com/boardgame/37696/stars-are-right"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has ridden on a flying carpet most recently becomes start player.",
+      "paraphrase": "The player who has ridden on a flying carpet most recently begins."
+    },
+    "game": {
+      "name": "1001 Karawane",
+      "url": "https://boardgamegeek.com/boardgame/30363/1001-karawane"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most often daydreams begins the game.",
+      "paraphrase": "The player who most often daydreams begins."
+    },
+    "game": {
+      "name": "Pocket Rockets",
+      "url": "https://boardgamegeek.com/boardgame/43264/pocket-rockets"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose a starting player by taking turns telling a love story – tragic or heart warming – from your personal experience (or, in a pinch, someone else’s).  If everyone agrees you told the most romantic or moving love story, you get to choose who goes first.",
+      "paraphrase": "The player who can tell the most romantic or moving love story begins."
+    },
+    "game": {
+      "name": "Genji",
+      "url": "https://boardgamegeek.com/boardgame/33196/genji"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The shortest person starts to play.",
+      "paraphrase": "The shortest player begins."
+    },
+    "game": {
+      "name": "DIG",
+      "url": "https://boardgamegeek.com/boardgame/222741/dig"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last built something is the start player and receives the start player figure.",
+      "paraphrase": "The player who last built something begins."
+    },
+    "game": {
+      "name": "World Without End",
+      "url": "https://boardgamegeek.com/boardgame/43528/world-without-end"
+    }
   }
 ]
 
