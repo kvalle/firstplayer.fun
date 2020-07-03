@@ -155,7 +155,7 @@ rulesJson =
   },
   {
     "rule": {
-      "quote": "The player with the largest cowboy boots (or other shoes) begins, the others follow in clockwise direction. ",
+      "quote": "The player with the largest cowboy boots (or other shoes) begins, the others follow in clockwise direction.",
       "paraphrase": "The player with the largest cowboy boots (or other shoes) begins."
     },
     "game": {
@@ -208,7 +208,7 @@ rulesJson =
       "paraphrase": "The player who had the least amount of sleep last night begins."
     },
     "game": {
-      "name": "Zombie State: Diplomacy of the Dead ",
+      "name": "Zombie State: Diplomacy of the Dead",
       "url": "https://boardgamegeek.com/boardgame/61484/zombie-state-diplomacy-dead"
     }
   },
@@ -1638,7 +1638,7 @@ rulesJson =
   {
     "rule": {
       "quote": "The player with the longest whiskers goes first, or, in the case of a tie, whoever’s breath smells most like fish.",
-      "paraphrase": "The player with the longest whiskers begins. If tied, choose whoever’s breath smells most like fish. "
+      "paraphrase": "The player with the longest whiskers begins. If tied, choose whoever’s breath smells most like fish."
     },
     "game": {
       "name": "Hot Tin Roof",
@@ -2663,7 +2663,7 @@ rulesJson =
   },
   {
     "rule": {
-      "quote": "The player with the best story about being stranded by their own accord goes first, or roll the number die and whoever rolls the highest goes first. ",
+      "quote": "The player with the best story about being stranded by their own accord goes first, or roll the number die and whoever rolls the highest goes first.",
       "paraphrase": "The player with the best story about being stranded by their own accord begins."
     },
     "game": {
@@ -2818,6 +2818,286 @@ rulesJson =
     "game": {
       "name": "World Without End",
       "url": "https://boardgamegeek.com/boardgame/43528/world-without-end"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently visited a cave or cellar starts the game, and takes his first turn. ",
+      "paraphrase": "The player who most recently visited a cave or cellar begins."
+    },
+    "game": {
+      "name": "Small World Underground",
+      "url": "https://www.boardgamegeek.com/boardgame/97786/small-world-underground"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Determine a first player with the method of your choice (for example, whoever best imitates a lion’s roar)",
+      "paraphrase": "The player who best imitates a lion’s roar begins."
+    },
+    "game": {
+      "name": "Zooloretto",
+      "url": "https://boardgamegeek.com/boardgame/27588/zooloretto"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who was most recently on an island is the first player.",
+      "paraphrase": "The player who was most recently on an island begins."
+    },
+    "game": {
+      "name": "Valletta",
+      "url": "https://boardgamegeek.com/boardgame/218920/valletta"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player to have seen a firefly is the starting player.",
+      "paraphrase": "The last player to have seen a firefly begins."
+    },
+    "game": {
+      "name": "Smile",
+      "url": "https://boardgamegeek.com/boardgame/227893/smile"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most organized player takes the score cards and puts the score marker on the 0 space. […] starting with the player with the 0 stone and proceeding clockwise.",
+      "paraphrase": "The most organized player begins."
+    },
+    "game": {
+      "name": "Narabi",
+      "url": "https://boardgamegeek.com/boardgame/257836/narabi"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player to have visited a Chinatown (New York, Montréal, Paris, etc) receives the First Player card.",
+      "paraphrase": "The last player to have visited a Chinatown (New York, Montréal, Paris, etc) begins."
+    },
+    "game": {
+      "name": "Chinatown",
+      "url": "https://boardgamegeek.com/boardgame/47/chinatown"
+    }
+  },
+  {
+    "rule": {
+      "quote": "In the first round, the player who most recently visited a building under construction goes first.",
+      "paraphrase": "The player who most recently visited a building under construction begins."
+    },
+    "game": {
+      "name": "Blueprints",
+      "url": "https://boardgamegeek.com/boardgame/140933/blueprints"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently watched a Back to the Future movie goes first. In the event of a tie, then the player who's seen the movies the greatest number of times goest first.",
+      "paraphrase": "The player who has most recently watched a Back to the Future movie begins."
+    },
+    "game": {
+      "name": "Back to the Future: The Card Game",
+      "url": "https://www.boardgamegeek.com/boardgame/71676/back-future-card-game"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the most mysterious look on his face starts the game;, the others follow clockwise.",
+      "paraphrase": "The player with the most mysterious look on their face begins."
+    },
+    "game": {
+      "name": "Die Jagd nach dem Gral",
+      "url": "https://www.boardgamegeek.com/boardgame/31909/die-jagd-nach-dem-gral"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who can hold their breath the longest becomes the start player.",
+      "paraphrase": "The player who can hold their breath the longest begins."
+    },
+    "game": {
+      "name": "Aquarium",
+      "url": "https://www.boardgamegeek.com/boardgame/36649/aquarium"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose a starting player. We recommend that the player who has most recently ridden on a train should be the first player.",
+      "paraphrase": "The player who has most recently ridden on a train begins."
+    },
+    "game": {
+      "name": "Station Master",
+      "url": "https://www.boardgamegeek.com/boardgame/9615/station-master"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has carried the heaviest item today is the starting player (stomachs do not count) and takes the first turn.",
+      "paraphrase": "The player who has carried the heaviest item today (stomachs do not count) begins."
+    },
+    "game": {
+      "name": "Antics!",
+      "url": "https://www.boardgamegeek.com/boardgame/80642/antics"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who was last on a balcony goes first.",
+      "paraphrase": "The player who was last on a balcony begins."
+    },
+    "game": {
+      "name": "Council of Verona",
+      "url": "https://boardgamegeek.com/boardgame/140863/council-verona"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently cleaned a window receives the starting player tile and places it next to his palace board.",
+      "paraphrase": "The player who most recently cleaned a window begins."
+    },
+    "game": {
+      "name": "Azul: Stained Glass of Sintra",
+      "url": "https://boardgamegeek.com/boardgame/256226/azul-stained-glass-sintra"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last captained a container ship starts the game.",
+      "paraphrase": "The player who last captained a container ship begins."
+    },
+    "game": {
+      "name": "Container: 10th Anniversary Jumbo Edition!",
+      "url": "https://boardgamegeek.com/boardgame/229892/container-10th-anniversary-jumbo-edition"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player to see a songbird receives the first player card. ",
+      "paraphrase": "The last player to see a songbird begins."
+    },
+    "game": {
+      "name": "Piepmatz",
+      "url": "https://boardgamegeek.com/boardgame/246200/piepmatz"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player to hike into the woods goes first and play continues to the left.",
+      "paraphrase": "The last player to hike into the woods begins."
+    },
+    "game": {
+      "name": "Dragonwood",
+      "url": "https://boardgamegeek.com/boardgame/172933/dragonwood"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the Starting Player token to the player who ate bacon most recently.",
+      "paraphrase": "The player who ate bacon most recently begins."
+    },
+    "game": {
+      "name": "The Grimm Forest",
+      "url": "https://boardgamegeek.com/boardgame/212402/grimm-forest"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The Staring Player is the player who most recently took out the Garbage.",
+      "paraphrase": "The player who most recently took out the garbage begins."
+    },
+    "game": {
+      "name": "Garbage Day!",
+      "url": "https://boardgamegeek.com/boardgame/179259/garbage-day"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently painted is the first Artist.",
+      "paraphrase": "The player who has most recently painted begins."
+    },
+    "game": {
+      "name": "Pantone: The Game",
+      "url": "https://boardgamegeek.com/boardgame/248584/pantone-game"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player most recently in contact with Law Enforcement gets to pick their character first, then clockwise around the table. […] : The last player to choose a Character takes the First Player marker.",
+      "paraphrase": "The player most recently in contact with Law Enforcement begins."
+    },
+    "game": {
+      "name": "Police precinct",
+      "url": "https://boardgamegeek.com/boardgame/118536/police-precinct"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the Dealer Token to the person who has most recently seen a horse, or choose a player randomly.",
+      "paraphrase": "The player who has most recently seen a horse begins."
+    },
+    "game": {
+      "name": "Tiny Epic Western",
+      "url": "https://boardgamegeek.com/boardgame/180852/tiny-epic-western"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently swung a sword is given the active player token and starts the game, or determine the first player randomly.",
+      "paraphrase": "The player who most recently swung a sword begins."
+    },
+    "game": {
+      "name": "Tiny Epic Kingdoms",
+      "url": "https://boardgamegeek.com/boardgame/148951/tiny-epic-kingdoms"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the First Player Token to the player who has most recently done a scavenger hunt, or determine as a group who gets the token. This player goes first.",
+      "paraphrase": "The player who has most recently done a scavenger hunt begins."
+    },
+    "game": {
+      "name": "Tiny Epic Quest",
+      "url": "https://boardgamegeek.com/boardgame/201921/tiny-epic-quest"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently visited a mall goes first (or choose your own method to determine and remember the first player).",
+      "paraphrase": "The player who most recently visited a mall begins."
+    },
+    "game": {
+      "name": "Tiny Epic Zombies",
+      "url": "https://boardgamegeek.com/boardgame/244536/tiny-epic-zombies"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The starting player is the person who most recently had a birthday. The queen loves birthdays.",
+      "paraphrase": "The player who most recently had a birthday begins."
+    },
+    "game": {
+      "name": "Courtier",
+      "url": "https://boardgamegeek.com/boardgame/122891/courtier"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who went for a hike most recently is the start player and takes the Element bag.",
+      "paraphrase": "The player who went for a hike most recently begins."
+    },
+    "game": {
+      "name": "Ecos: First Continent",
+      "url": "https://boardgamegeek.com/boardgame/279254/ecos-first-continent"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever inherited the most awesome legacy takes the first turn.",
+      "paraphrase": "The player who has inherited the most awesome legacy begins."
+    },
+    "game": {
+      "name": "Lost Legacy: Second Chronicle",
+      "url": "https://boardgamegeek.com/boardgame/173319/lost-legacy-second-chronicle-vorpal-sword-whitegol"
     }
   }
 ]
