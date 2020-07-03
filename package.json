@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "rm -rf build/* && parcel build index.html",
-    "deploy": "aws s3 sync dist/ s3://firstplayer.fun/"
+    "deploy": "aws s3 sync dist/ s3://firstplayer.fun/",
+    "sync-rulebooks": "aws s3 sync rulebooks/ s3://firstplayer.fun-rulebooks"
   },
   "keywords": [],
   "author": "",
