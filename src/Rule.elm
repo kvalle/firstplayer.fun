@@ -3099,6 +3099,96 @@ rulesJson =
       "name": "Lost Legacy: Second Chronicle",
       "url": "https://boardgamegeek.com/boardgame/173319/lost-legacy-second-chronicle-vorpal-sword-whitegol"
     }
+  },
+  {
+    "rule": {
+      "quote": "The player who was most recently barefoot on the beach goes first.",
+      "paraphrase": "The player who was most recently barefoot on the beach begins."
+    },
+    "game": {
+      "name": "Sand Castles",
+      "url": "https://boardgamegeek.com/boardgame/174049/sandcastles"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The weirdest player begins the round by saying “Play Me!” Then, all players begin by rolling their dice at the same time.",
+      "paraphrase": "The weirdest player begins."
+    },
+    "game": {
+      "name": "Play Me: Alice in Wonderdice",
+      "url": "https://boardgamegeek.com/boardgame/158851/play-me-alice-wonderdice"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The first player is the one who won the last game, or the one who makes the best dinosaur noise. ",
+      "paraphrase": "The player who makes the best dinosaur noise begins."
+    },
+    "game": {
+      "name": "Dino Hunt Dice",
+      "url": "https://boardgamegeek.com/boardgame/125368/dino-hunt-dice"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose a start player. We recommend the player who has last read a real newspaper.",
+      "paraphrase": "The player who has last read a newspaper begins."
+    },
+    "game": {
+      "name": "Penny Press",
+      "url": "https://boardgamegeek.com/boardgame/148205/penny-press"
+    }
+  },
+  {
+    "rule": {
+      "quote": "After players pack their equipment, they determine the starting player: whoever was most recently in a cave is the starting player.",
+      "paraphrase": "The player who was most recently in a cave begins."
+    },
+    "game": {
+      "name": "The Cave",
+      "url": "https://boardgamegeek.com/boardgame/129351/cave"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The Beardiest player begins.",
+      "paraphrase": "The player with the best beard begins."
+    },
+    "game": {
+      "name": "Tunhell",
+      "url": "https://boardgamegeek.com/boardgame/179627/tunhell"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose a first player, for example the last person who have killed someone (a noisy neighbour, an annoying mother in law, or a really hard boss in a video game).",
+      "paraphrase": "The last player to have killed someone (a noisy neighbour, an annoying mother in law, or a really hard boss in a video game) begins."
+    },
+    "game": {
+      "name": "10' to Kill",
+      "url": "https://boardgamegeek.com/boardgame/174476/10-kill"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the darkest past is the boss.",
+      "paraphrase": "The player with the darkest past begins."
+    },
+    "game": {
+      "name": "Rob 'n Run",
+      "url": "https://boardgamegeek.com/boardgame/234093/rob-n-run"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the greenest thumb begins the game, and play proceeds clockwise.",
+      "paraphrase": "The player with the greenest thumb begins."
+    },
+    "game": {
+      "name": "Lotus",
+      "url": "https://boardgamegeek.com/boardgame/198525/lotus"
+    }
   }
 ]
 
