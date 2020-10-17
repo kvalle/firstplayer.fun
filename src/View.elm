@@ -23,10 +23,10 @@ view model =
                 Loading ->
                     text "Loading…"
 
-                ShowRule index rule ->
+                RulePage index rule ->
                     displayGameRule index rule
 
-                Error _ ->
+                ErrorPage _ ->
                     errorMessage
         ]
     }
@@ -67,17 +67,17 @@ displayGameRule index rule =
         , paragraph [ paddingXY 0 40, Font.color (rgb 0.7 0.7 0.7) ] [ text "—" ]
         , Input.button
             []
-            { onPress = Just GetRandomRule
+            { onPress = Just RedirectToRandomRule
             , label = row [] [ icon "shuffle", text "Random rule" ]
             }
         , Input.button
             []
-            { onPress = Just <| GetRuleByIndex (index + 1)
+            { onPress = Just <| RedirectToIndexRule <| Ok (index + 1)
             , label = row [] [ icon "right", text "Next rule" ]
             }
         , Input.button
             []
-            { onPress = Just <| GetRuleByIndex (index - 1)
+            { onPress = Just <| RedirectToIndexRule <| Ok (index - 1)
             , label = row [] [ icon "left", text "Previous rule" ]
             }
         ]

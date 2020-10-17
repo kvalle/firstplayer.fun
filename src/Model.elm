@@ -12,8 +12,8 @@ type alias Model =
 
 type PageState
     = Loading
-    | ShowRule Int Rule
-    | Error String
+    | RulePage Int Rule
+    | ErrorPage String
 
 
 init : Nav.Key -> Model

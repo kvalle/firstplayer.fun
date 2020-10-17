@@ -1,4 +1,4 @@
-module Rule exposing (Rule, getByIndex, getRandom)
+module Rule exposing (Rule, getByIndex, getRandomIndex)
 
 import Json.Decode exposing (Decoder)
 import List.Nonempty as Nonempty exposing (Nonempty)
@@ -13,15 +13,15 @@ type alias Rule =
     }
 
 
-getRandom : (Result String ( Int, Rule ) -> msg) -> Cmd msg
-getRandom msgWrapper =
+getRandomIndex : (Result String Int -> msg) -> Cmd msg
+getRandomIndex msgWrapper =
     case listOfRules of
         Err error ->
             Task.attempt msgWrapper (Task.fail error)
 
         Ok rules ->
             Random.int 0 (Nonempty.length rules)
-                |> Random.map (\index -> Ok ( index, Nonempty.get index rules ))
+                |> Random.map Ok
                 |> Random.generate msgWrapper
 
 
@@ -1286,7 +1286,7 @@ rulesJson =
   {
     "rule": {
       "quote": "Whoever was last in Iceland begins. If nobody has been to Iceland, the player who most urgently wants to go to Iceland begins.",
-      "paraphrase": "The player who last went to Iceland begins."
+      "paraphrase": "The player who last visited Iceland begins."
     },
     "game": {
       "name": "Hekla",

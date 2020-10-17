@@ -27,41 +27,46 @@ main =
 
 init : Value -> Url -> Key -> ( Model, Cmd Msg )
 init flags url key =
-    let
-        model =
-            Model.init key
-    in
+    Model.init key
+        |> resolveUrl url
+
+
+resolveUrl : Url -> Model -> ( Model, Cmd Msg )
+resolveUrl url model =
     case url.path of
         "/" ->
-            ( model, Rule.getRandom NewRule )
+            ( model, Rule.getRandomIndex RedirectToIndexRule )
+
+        "/random" ->
+            ( model, Rule.getRandomIndex RedirectToIndexRule )
 
         path ->
             case path |> String.dropLeft 1 |> String.toInt of
                 Just index ->
-                    ( model, Rule.getByIndex index NewRule )
+                    ( model, Rule.getByIndex index ShowRule )
 
                 Nothing ->
-                    ( { model | state = Error "Page not found" }, Cmd.none )
+                    ( { model | state = ErrorPage "Page not found" }, Cmd.none )
 
 
 subscriptions model =
     case model.state of
-        ShowRule index rule ->
+        RulePage index rule ->
             JD.field "key" JD.string
                 |> JD.andThen
                     (\key ->
                         case key of
                             "ArrowLeft" ->
-                                JD.succeed <| GetRuleByIndex (index - 1)
+                                JD.succeed <| RedirectToIndexRule <| Ok (index - 1)
 
                             "ArrowRight" ->
-                                JD.succeed <| GetRuleByIndex (index + 1)
+                                JD.succeed <| RedirectToIndexRule <| Ok (index + 1)
 
                             "r" ->
-                                JD.succeed <| GetRandomRule
+                                JD.succeed <| RedirectToRandomRule
 
                             "R" ->
-                                JD.succeed <| GetRandomRule
+                                JD.succeed <| RedirectToRandomRule
 
                             other ->
                                 JD.fail <| "Ignored key press: " ++ other
@@ -75,28 +80,37 @@ subscriptions model =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        NewRule (Ok ( index, rule )) ->
-            ( { model | state = ShowRule index rule }
-            , Nav.pushUrl model.key ("/" ++ String.fromInt index)
-            )
-
-        NewRule (Err error) ->
-            ( { model | state = Error error }
+        ShowRule (Ok ( index, rule )) ->
+            ( { model | state = RulePage index rule }
             , Cmd.none
             )
 
-        GetRandomRule ->
-            ( { model | state = Loading }
-            , Rule.getRandom NewRule
+        ShowRule (Err error) ->
+            ( { model | state = ErrorPage error }
+            , Cmd.none
             )
 
-        GetRuleByIndex index ->
+        RedirectToRandomRule ->
             ( { model | state = Loading }
-            , Rule.getByIndex index NewRule
+            , Rule.getRandomIndex RedirectToIndexRule
+            )
+
+        RedirectToIndexRule (Ok index) ->
+            ( { model | state = Loading }
+            , Nav.pushUrl model.key ("/" ++ String.fromInt index)
+            )
+
+        RedirectToIndexRule (Err error) ->
+            ( { model | state = ErrorPage error }
+            , Cmd.none
             )
 
         UrlChanged url ->
-            ( model, Cmd.none )
+            let
+                _ =
+                    Debug.log "url changed" url
+            in
+            resolveUrl url model
 
         UrlRequested urlRequest ->
             case urlRequest of
