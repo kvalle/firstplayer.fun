@@ -3189,6 +3189,56 @@ rulesJson =
       "name": "Lotus",
       "url": "https://boardgamegeek.com/boardgame/198525/lotus"
     }
+  },
+  {
+    "rule": {
+      "quote": "The starting player is the one who most recently traveled to a place they had never visited before. Give this player the starting player marker. Play will proceed clockwise.",
+      "paraphrase": "The player who most recently traveled to a place they had never visited before begins."
+    },
+    "game": {
+      "name": "Lost Ruins of Arnak",
+      "url": "https://boardgamegeek.com/boardgame/312484/lost-ruins-arnak"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last packed a bag goes first by reading the first Story card out loud.",
+      "paraphrase": "The player who last packed a bag begins."
+    },
+    "game": {
+      "name": "Squire for Hire",
+      "url": "https://boardgamegeek.com/boardgame/287780/squire-hire"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Give the First Player Card to the player who has lived in the same place the longest.",
+      "paraphrase": "The player who has lived in the same place the longest begins."
+    },
+    "game": {
+      "name": "Villagers",
+      "url": "https://boardgamegeek.com/boardgame/241724/villagers"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently lit a candle goes first. When in doubt, the oldest player goes first.",
+      "paraphrase": "The player who most recently lit a candle begins."
+    },
+    "game": {
+      "name": "Disney Hocus Pocus: The Game",
+      "url": "https://boardgamegeek.com/boardgame/303648/disney-hocus-pocus-game"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently visited a cemetery or graveyard goes first.",
+      "paraphrase": "The player who most recently visited a cemetery or graveyard begins."
+    },
+    "game": {
+      "name": "Skulls of Sedlec",
+      "url": "https://boardgamegeek.com/boardgame/303553/skulls-sedlec"
+    }
   }
 ]
 
