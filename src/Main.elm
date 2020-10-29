@@ -35,7 +35,7 @@ resolveUrl : Url -> Model -> ( Model, Cmd Msg )
 resolveUrl url model =
     case url.path of
         "/" ->
-            ( model, Rule.getRandomIndex RedirectToIndexRule )
+            ( { model | state = IndexPage }, Cmd.none )
 
         "/random" ->
             ( model, Rule.getRandomIndex RedirectToIndexRule )

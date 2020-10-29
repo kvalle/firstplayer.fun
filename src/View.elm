@@ -23,6 +23,9 @@ view model =
                 Loading ->
                     text "Loading…"
 
+                IndexPage ->
+                    displayFrontPage
+
                 RulePage index rule ->
                     displayGameRule index rule
 
@@ -30,11 +33,6 @@ view model =
                     errorMessage
         ]
     }
-
-
-errorMessage : Element Msg
-errorMessage =
-    text "Oh no, something went wrong. Choose player randomly? ¯\\_(ツ)_/¯"
 
 
 container : Element Msg -> Html Msg
@@ -51,15 +49,42 @@ container content =
             [ content ]
 
 
+displayFrontPage : Element Msg
+displayFrontPage =
+    column
+        [ spacing 30
+        , width <| px 800
+        ]
+        [ heading "First Player Fun"
+        , paragraph []
+            [ text "The most useless rule of any board game is usually the first player rule. But useless dosn't necessarily mean boring. Often these rules are quite quirky and fun!"
+            ]
+        , paragraph []
+            [ text "But they are also usually very static, letting the same player go first every time. And let's be honest, even the funniest rule gets stale rather quickly…"
+            ]
+        , paragraph [ Font.italic ]
+            [ text "So, what if you could use a new rule every time you played?"
+            ]
+        , Input.button
+            []
+            { onPress = Just RedirectToRandomRule
+            , label = row [ Font.bold ] [ icon "shuffle", text "Show me a random rule!" ]
+            }
+        ]
+
+
+errorMessage : Element Msg
+errorMessage =
+    text "Oh no, something went wrong. Choose player randomly? ¯\\_(ツ)_/¯"
+
+
 displayGameRule : Int -> Rule -> Element Msg
 displayGameRule index rule =
     column
         [ spacing 30
         , width <| px 800
         ]
-        [ paragraph
-            [ Font.size 40 ]
-            [ text rule.rule ]
+        [ heading rule.rule
         , link [ Font.underline, Font.italic ]
             { url = rule.url
             , label = text rule.game
@@ -86,3 +111,10 @@ displayGameRule index rule =
 icon : String -> Element msg
 icon name =
     el [ htmlAttribute <| Html.Attributes.class <| "icon-" ++ name ] Element.none
+
+
+heading : String -> Element msg
+heading textContent =
+    paragraph
+        [ Font.size 40 ]
+        [ text textContent ]

@@ -12,6 +12,7 @@ type alias Model =
 
 type PageState
     = Loading
+    | IndexPage
     | RulePage Int Rule
     | ErrorPage String
 
