@@ -52,24 +52,35 @@ resolveUrl url model =
 subscriptions model =
     case model.state of
         RulePage index rule ->
-            JD.field "key" JD.string
+            JD.map2 Tuple.pair
+                (JD.field "key" JD.string)
+                (JD.map4
+                    (\meta shift alt ctrl ->
+                        [ meta, shift, alt, ctrl ]
+                    )
+                    (JD.field "metaKey" JD.bool)
+                    (JD.field "shiftKey" JD.bool)
+                    (JD.field "altKey" JD.bool)
+                    (JD.field "ctrlKey" JD.bool)
+                )
                 |> JD.andThen
-                    (\key ->
-                        case key of
-                            "ArrowLeft" ->
-                                JD.succeed <| RedirectToIndexRule <| Ok (index - 1)
+                    (\( key, modifiers ) ->
+                        if List.any identity modifiers then
+                            JD.fail <| "Ignored key because of modifier: " ++ key
 
-                            "ArrowRight" ->
-                                JD.succeed <| RedirectToIndexRule <| Ok (index + 1)
+                        else
+                            case key of
+                                "ArrowLeft" ->
+                                    JD.succeed <| RedirectToIndexRule <| Ok (index - 1)
 
-                            "r" ->
-                                JD.succeed <| RedirectToRandomRule
+                                "ArrowRight" ->
+                                    JD.succeed <| RedirectToIndexRule <| Ok (index + 1)
 
-                            "R" ->
-                                JD.succeed <| RedirectToRandomRule
+                                "r" ->
+                                    JD.succeed <| RedirectToRandomRule
 
-                            other ->
-                                JD.fail <| "Ignored key press: " ++ other
+                                other ->
+                                    JD.fail <| "Ignored irrelevant key: " ++ other
                     )
                 |> Browser.Events.onKeyDown
 
