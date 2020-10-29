@@ -12,13 +12,14 @@ import Html.Attributes
 import Model exposing (Model, PageState(..))
 import Msg exposing (Msg(..))
 import Rule exposing (Rule)
+import Screen exposing (Screen(..))
 
 
 view : Model -> Document Msg
 view model =
     { title = "First Player Fun"
     , body =
-        [ container <|
+        [ container model.screen <|
             case model.state of
                 Loading ->
                     text "Loading…"
@@ -35,8 +36,8 @@ view model =
     }
 
 
-container : Element Msg -> Html Msg
-container content =
+container : Screen -> Element Msg -> Html Msg
+container screen content =
     Element.layout
         [ Font.family
             [ Font.typeface "Roboto Condensed"
