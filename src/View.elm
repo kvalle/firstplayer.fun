@@ -25,10 +25,10 @@ view model =
                     text "Loading…"
 
                 IndexPage ->
-                    displayFrontPage
+                    displayFrontPage model.screen
 
                 RulePage index rule ->
-                    displayGameRule index rule
+                    displayGameRule model.screen index rule
 
                 ErrorPage _ ->
                     errorMessage
@@ -46,16 +46,28 @@ container screen content =
         ]
     <|
         row
-            [ centerY, centerX ]
+            (case screen of
+                Small ->
+                    [ padding 10
+                    ]
+
+                Medium ->
+                    [ padding 20
+                    ]
+
+                Wide ->
+                    [ centerY
+                    , centerX
+                    , padding 20
+                    ]
+            )
             [ content ]
 
 
-displayFrontPage : Element Msg
-displayFrontPage =
+displayFrontPage : Screen -> Element Msg
+displayFrontPage screen =
     column
-        [ spacing 30
-        , width <| px 800
-        ]
+        (commonColumnStyle screen)
         [ heading "First Player Fun"
         , paragraph []
             [ text "The most useless rule of any board game is usually the first player rule. But useless dosn't necessarily mean boring. Often these rules are quite quirky and fun!"
@@ -79,12 +91,10 @@ errorMessage =
     text "Oh no, something went wrong. Choose player randomly? ¯\\_(ツ)_/¯"
 
 
-displayGameRule : Int -> Rule -> Element Msg
-displayGameRule index rule =
+displayGameRule : Screen -> Int -> Rule -> Element Msg
+displayGameRule screen index rule =
     column
-        [ spacing 30
-        , width <| px 800
-        ]
+        (commonColumnStyle screen)
         [ heading rule.rule
         , link [ Font.underline, Font.italic ]
             { url = rule.url
@@ -107,6 +117,25 @@ displayGameRule index rule =
             , label = row [] [ icon "left", text "Previous rule" ]
             }
         ]
+
+
+commonColumnStyle : Screen -> List (Attribute msg)
+commonColumnStyle screen =
+    case screen of
+        Small ->
+            [ spacing 30
+            , width fill
+            ]
+
+        Medium ->
+            [ spacing 30
+            , width fill
+            ]
+
+        Wide ->
+            [ spacing 30
+            , width <| px 800
+            ]
 
 
 icon : String -> Element msg
