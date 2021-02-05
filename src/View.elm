@@ -68,7 +68,7 @@ displayFrontPage : Screen -> Element Msg
 displayFrontPage screen =
     column
         (commonColumnStyle screen)
-        [ heading "First Player Fun"
+        [ heading screen "First Player Fun"
         , paragraph []
             [ text "The most useless rule of any board game is usually the first player rule. But useless dosn't necessarily mean boring. Often these rules are quite quirky and fun!"
             ]
@@ -95,12 +95,24 @@ displayGameRule : Screen -> Int -> Rule -> Element Msg
 displayGameRule screen index rule =
     column
         (commonColumnStyle screen)
-        [ heading rule.rule
+        [ heading screen rule.rule
         , link [ Font.underline, Font.italic ]
             { url = rule.url
             , label = text rule.game
             }
-        , paragraph [ paddingXY 0 40, Font.color (rgb 0.7 0.7 0.7) ] [ text "—" ]
+        , paragraph
+            [ paddingXY 0 40
+            , case screen of
+                Small ->
+                    Font.color (rgb 0.1 0.7 0.2)
+
+                Medium ->
+                    Font.color (rgb 0.7 0.1 0.2)
+
+                Wide ->
+                    Font.color (rgb 0.7 0.7 0.7)
+            ]
+            [ text "—" ]
         , Input.button
             []
             { onPress = Just RedirectToRandomRule
@@ -143,8 +155,13 @@ icon name =
     el [ htmlAttribute <| Html.Attributes.class <| "icon-" ++ name ] Element.none
 
 
-heading : String -> Element msg
-heading textContent =
+heading : Screen -> String -> Element msg
+heading screen textContent =
     paragraph
-        [ Font.size 40 ]
+        [ if screen == Small then
+            Font.size 80
+
+          else
+            Font.size 40
+        ]
         [ text textContent ]
