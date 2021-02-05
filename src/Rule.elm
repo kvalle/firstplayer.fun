@@ -564,8 +564,8 @@ rulesJson =
   {
     "rule": {
       "quote": "The player who most recently rode a bike (youngest if tied).",
-        "paraphrase": "The player who most recently rode a bike begins."
-      },
+      "paraphrase": "The player who most recently rode a bike begins."
+    },
     "game": {
       "name": "Flamme Rouge",
       "url": "https://boardgamegeek.com/boardgame/199478/flamme-rouge"
@@ -574,8 +574,8 @@ rulesJson =
   {
     "rule": {
       "quote": "Whoever was most recently on a date goes first (if tied, the youngest player wins the tie).",
-        "paraphrase": "The player who was most recently on a date begins."
-      },
+      "paraphrase": "The player who was most recently on a date begins."
+    },
     "game": {
       "name": "Love Letter",
       "url": "https://boardgamegeek.com/boardgame/129622/love-letter"
