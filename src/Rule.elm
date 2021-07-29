@@ -2007,16 +2007,6 @@ rulesJson =
   },
   {
     "rule": {
-      "quote": "Whoever was sick most recently receives the First Player Marker and 2 ATP.",
-      "paraphrase": "The player who was sick most recently begins."
-    },
-    "game": {
-      "name": "Cytosis: A Cell Biology Board Game",
-      "url": "https://www.boardgamegeek.com/boardgame/202977/cytosis-cell-biology-board-game"
-    }
-  },
-  {
-    "rule": {
       "quote": "Find out which player has his alarm clock set the earliest for work. That unfortunate player will go first.",
       "paraphrase": "The player with their alarm clock set the earliest begins."
     },
@@ -2103,16 +2093,6 @@ rulesJson =
     "game": {
       "name": "Volcano",
       "url": "https://www.boardgamegeek.com/boardgame/13084/volcano"
-    }
-  },
-  {
-    "rule": {
-      "quote": "Give the First Player Card to the player who has lived in the same place the longest.",
-      "paraphrase": "The player who has lived in the same place the longest begins."
-    },
-    "game": {
-      "name": "Villagers",
-      "url": "https://www.boardgamegeek.com/boardgame/241724/villagers"
     }
   },
   {
@@ -3358,16 +3338,6 @@ rulesJson =
     "game": {
       "name": "Munchkin Crazy Cooks",
       "url": "https://boardgamegeek.com/boardgame/258610/munchkin-crazy-cooks"
-    }
-  },
-  {
-    "rule": {
-      "quote": "The start player is the player who was most recently on board a ship.",
-      "paraphrase": "The player who was most recently on board a ship begins."
-    },
-    "game": {
-      "name": "Maracaibo",
-      "url": "https://boardgamegeek.com/boardgame/276025/maracaibo"
     }
   },
   {
