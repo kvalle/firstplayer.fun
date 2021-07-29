@@ -3239,6 +3239,156 @@ rulesJson =
       "name": "Skulls of Sedlec",
       "url": "https://boardgamegeek.com/boardgame/303553/skulls-sedlec"
     }
+  },
+  {
+    "rule": {
+      "quote": "The starting player is the player who last visited an animal park.",
+      "paraphrase": "The player who last visited an animal park begins."
+    },
+    "game": {
+      "name": "Bärenpark",
+      "url": "https://boardgamegeek.com/boardgame/219513/barenpark"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most daring player is designated as the first player.",
+      "paraphrase": "The most daring player begins."
+    },
+    "game": {
+      "name": "Carnegie",
+      "url": "https://boardgamegeek.com/boardgame/310873/carnegie"
+    }
+  },
+  {
+    "rule": {
+      "quote": "First off, you’ll need to determine a first player. I recommend choosing the person who has most recently raised a full legion of undead, but if no one is up to that simple task, feel free to choose randomly.",
+      "paraphrase": "The player who most recently raised a full legion of undead begins."
+    },
+    "game": {
+      "name": "Overboss",
+      "url": "https://boardgamegeek.com/boardgame/310192/overboss-boss-monster-adventure"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who was last in a tavern places the beer mug in front of him as a Start Player marker.",
+      "paraphrase": "The player who was last in a tavern begins."
+    },
+    "game": {
+      "name": "The Taverns of Tiefenthal",
+      "url": "https://boardgamegeek.com/boardgame/269207/taverns-tiefenthal"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Finally, determine a Start Player (the last player to use a needle and thread) and give them the Start Player token.",
+      "paraphrase": "The last player to use a needle and thread begins."
+    },
+    "game": {
+      "name": "Rococo: Deluxe Edition",
+      "url": "https://boardgamegeek.com/boardgame/296100/rococo-deluxe-edition"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever was sick most recently receives the First Player Marker […]",
+      "paraphrase": "The player who was sick most recently begins."
+    },
+    "game": {
+      "name": "Cytosis: A Cell Biology Board Game",
+      "url": "https://boardgamegeek.com/boardgame/202977/cytosis-cell-biology-board-game"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who used a tool most recently receives the first player token.",
+      "paraphrase": "The player who used a tool most recently begins."
+    },
+    "game": {
+      "name": "Fantastic Factories",
+      "url": "https://boardgamegeek.com/boardgame/216600/fantastic-factories"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the most colorful clothing begins the game.",
+      "paraphrase": "The player with the most colorful clothing begins."
+    },
+    "game": {
+      "name": "Hanabi",
+      "url": "https://boardgamegeek.com/boardgame/98778/hanabi"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Decide who goes first by any method of your choosing. We suggest whoever can name the most Disney villians in 30 seconds, but it’s up to you.",
+      "paraphrase": "The player who can name the most Disney villains in 30 seconds begins."
+    },
+    "game": {
+      "name": "Munchkin Disney",
+      "url": "https://boardgamegeek.com/boardgame/312346/munchkin-disney"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Decide who goes first by any method of your choosing. We suggest whoever can sing the theme song to SpongeBob SquarePants the best, but it’s up to you.",
+      "paraphrase": "The player can sing the theme song to SpongeBob SquarePants the best begins."
+    },
+    "game": {
+      "name": "Munchkin: SpongeBob SquarePants",
+      "url": "https://boardgamegeek.com/boardgame/340042/munchkin-spongebob-squarepants"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The  player  who  most  resembles  their  current  RPG character goes first. Or you could just roll the die.",
+      "paraphrase": "The  player  who  most  resembles  their  current  RPG character begins."
+    },
+    "game": {
+      "name": "Munchkins & Mazes",
+      "url": "https://boardgamegeek.com/boardgame/323002/munchkins-mazes"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently ate at a restaurant goes first. In case of ties, argue about the quality of the respective restaurants until someone else gets bored and starts drawing cards.",
+      "paraphrase": "The player who most recently ate at a restaurant begins."
+    },
+    "game": {
+      "name": "Munchkin Crazy Cooks",
+      "url": "https://boardgamegeek.com/boardgame/258610/munchkin-crazy-cooks"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The start player is the player who was most recently on board a ship.",
+      "paraphrase": "The player who was most recently on board a ship begins."
+    },
+    "game": {
+      "name": "Maracaibo",
+      "url": "https://boardgamegeek.com/boardgame/276025/maracaibo"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who played a video game most recently gets the first-player token.",
+      "paraphrase": "The player who played a video game most recently begins."
+    },
+    "game": {
+      "name": "Megaland",
+      "url": "https://boardgamegeek.com/boardgame/251293/megaland"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player to cook goes first.",
+      "paraphrase": "The last player to cook something begins."
+    },
+    "game": {
+      "name": "Potions Class",
+      "url": "https://boardgamegeek.com/boardgame/260322/potions-class"
+    }
   }
 ]
 
