@@ -3389,7 +3389,136 @@ rulesJson =
       "name": "Potions Class",
       "url": "https://boardgamegeek.com/boardgame/260322/potions-class"
     }
+  },
+  {
+    "rule": {
+      "quote": "The strongest player starts the game. (The players can use any method they prefer in determining this!)",
+      "paraphrase": "The strongest player begins."
+    },
+    "game": {
+      "name": "Thermopyles",
+      "url": "https://boardgamegeek.com/boardgame/141019/thermopyles"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who was most recently on a boat is the Staring Player and will take the first turn.",
+      "paraphrase": "The player who was most recently on a boat begins."
+    },
+    "game": {
+      "name": "Harbour",
+      "url": "https://boardgamegeek.com/boardgame/155969/harbour"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The King has the first turn, if this is your first round the player who most recently dug a hole plays first.",
+      "paraphrase": "The player who most recently dug a hole begins."
+    },
+    "game": {
+      "name": "Kingless",
+      "url": "https://boardgamegeek.com/boardgame/283591/kingless@"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who saw a Dragon most recently (the ones in this game do not count!) is the First Player and takes the First Player token.",
+      "paraphrase": "The player who saw a Dragon most recently begins."
+    },
+    "game": {
+      "name": "Dragon Castle",
+      "url": "https://boardgamegeek.com/boardgame/232219/dragon-castle"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player with the best sheep impression goes first.",
+      "paraphrase": "The player with the best sheep impression begins. "
+    },
+    "game": {
+      "name": "Sheep Boom Bah",
+      "url": "https://boardgamegeek.com/boardgame/259310/sheep-boom-bah"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The person who opened the box is the starting player for the first round.",
+      "paraphrase": "The player who opened the game box begins."
+    },
+    "game": {
+      "name": "Goblins, Inc.",
+      "url": "https://boardgamegeek.com/boardgame/110524/goblins-inc"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently paid for a good or service in cash claims the quest token and places it next to his or her shop.",
+      "paraphrase": "The player who has most recently paid for a good or service in cash begins."
+    },
+    "game": {
+      "name": "Bargain Quest",
+      "url": "https://boardgamegeek.com/boardgame/223740/bargain-quest"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently planted a tree receives the First Player card.",
+      "paraphrase": "The player who has most recently planted a tree begins."
+    },
+    "game": {
+      "name": "Ginkgopolis",
+      "url": "https://boardgamegeek.com/boardgame/128271/ginkgopolis"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently eaten berries is the start player.",
+      "paraphrase": "The player who has most recently eaten berries begins."
+    },
+    "game": {
+      "name": "Carcassonne: Hunters and Gatherers ",
+      "url": "https://boardgamegeek.com/boardgame/4390/carcassonne-hunters-and-gatherers"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last person who have trimmed a real plant is the first player. If nobody has the green thumb, determine the first player randomly.",
+      "paraphrase": "The last player who have trimmed a real plant begins."
+    },
+    "game": {
+      "name": "Topiary",
+      "url": "https://boardgamegeek.com/boardgame/210900/topiary"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who most recently watered a plant is the first player.",
+      "paraphrase": "The player who most recently watered a plant begins."
+    },
+    "game": {
+      "name": "Canopy",
+      "url": "https://boardgamegeek.com/boardgame/295607/canopy"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The last player to watch a Sci-Fi movie or TV series becomes the 1st player.",
+      "paraphrase": "The last player to watch a Sci-Fi movie or TV series begins."
+    },
+    "game": {
+      "name": "Ganymede",
+      "url": "https://boardgamegeek.com/boardgame/248005/ganymede"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The tallest player receives the starting player card and will keep it until the end of the game.",
+      "paraphrase": "The tallest player begins."
+    },
+    "game": {
+      "name": "Treelings",
+      "url": "https://boardgamegeek.com/boardgame/298017/treelings"
+    }
   }
 ]
-
 """
