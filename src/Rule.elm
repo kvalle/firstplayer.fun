@@ -3489,6 +3489,197 @@ rulesJson =
       "name": "Treelings",
       "url": "https://boardgamegeek.com/boardgame/298017/treelings"
     }
+  },
+  {
+    "rule": {
+      "quote": "The player that was last stung by a bee receives the first player token and starts the game.",
+      "paraphrase": "The player that was last stung by a bee begins."
+    },
+    "game": {
+      "name": "Meadow",
+      "url": "https://boardgamegeek.com/boardgame/314491/meadow"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever most recently planted a tree goes first, and takes the Start Player token.",
+      "paraphrase": "The player who most recently planted a tree begins."
+    },
+    "game": {
+      "name": "CO₂: Second Chance",
+      "url": "https://boardgamegeek.com/boardgame/214887/co-second-chance"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The first player is the person who most recently visited a market.",
+      "paraphrase": "The player who most recently visited a market begins."
+    },
+    "game": {
+      "name": "Mercado de Lisboa",
+      "url": "https://boardgamegeek.com/boardgame/262477/mercado-de-lisboa"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Choose the player who has most recently visited a museum containing Egyptian artifacts as the start player. ",
+      "paraphrase": "The player who has most recently visited a museum containing Egyptian artifacts begins. "
+    },
+    "game": {
+      "name": "Tutankhamun",
+      "url": "https://boardgamegeek.com/boardgame/286667/tutankhamun"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has most recently traveled near Scotland is First Player.",
+      "paraphrase": "The player who has most recently traveled near Scotland begins."
+    },
+    "game": {
+      "name": "Schotten Totten",
+      "url": "https://boardgamegeek.com/boardgame/372/schotten-totten"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The most splendid player is the start player, then play continues around in clockwise order.",
+      "paraphrase": "The most splendid player begins."
+    },
+    "game": {
+      "name": "Blue Moon City",
+      "url": "https://boardgamegeek.com/boardgame/21882/blue-moon-city"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who woke up the earliest today should start the game.",
+      "paraphrase": "The player who woke up the earliest today begins."
+    },
+    "game": {
+      "name": "Dale of Merchants",
+      "url": "https://boardgamegeek.com/boardgame/176165/dale-merchants"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has visited Amsterdam most often starts (or the players can draw lots for the privilege).",
+      "paraphrase": "The player who has visited Amsterdam most often begins."
+    },
+    "game": {
+      "name": "Merchants of Amsterdam",
+      "url": "https://boardgamegeek.com/boardgame/531/merchants-amsterdam"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who last ate fish gets the 5 dice and starts the game.",
+      "paraphrase": "The player who last ate fish begins."
+    },
+    "game": {
+      "name": "Sushizock im Gockelwok",
+      "url": "https://boardgamegeek.com/boardgame/37400/sushizock-im-gockelwok"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player whose birthday was the most recent will get the starting player card and start the game",
+      "paraphrase": "The player whose birthday was the most recent begins."
+    },
+    "game": {
+      "name": "Lost Cities: Rivals",
+      "url": "https://boardgamegeek.com/boardgame/253398/lost-cities-rivals"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who was most recently on a ship becomes the start player.",
+      "paraphrase": "The player who was most recently on a ship begins."
+    },
+    "game": {
+      "name": "Merchants",
+      "url": "https://boardgamegeek.com/boardgame/32114/merchants"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who has last seen a real penguin begins.",
+      "paraphrase": "The player who has last seen a real penguin begins."
+    },
+    "game": {
+      "name": "Penguin Party",
+      "url": "https://boardgamegeek.com/boardgame/56933/penguin-party"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The hairiest player starts, then play goes in a clockwise direction.",
+      "paraphrase": "The hairiest player begins."
+    },
+    "game": {
+      "name": "Jäger und Sammler",
+      "url": "https://boardgamegeek.com/boardgame/65568/jager-und-sammler"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player who travelled most recently goes first.",
+      "paraphrase": "The player who travelled most recently begins."
+    },
+    "game": {
+      "name": "Chartae",
+      "url": "https://boardgamegeek.com/boardgame/269257/chartae"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Then all players moo. The loudest moo’er will play first.",
+      "paraphrase": "The player who “moo” the loudest begins."
+    },
+    "game": {
+      "name": "Black Sheep",
+      "url": "https://boardgamegeek.com/boardgame/36739/black-sheep"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Der goldigste Spieler beginnt.",
+      "paraphrase": "The cutest player begins.",
+      "note": "Translated from German."
+    },
+    "game": {
+      "name": "GOLD",
+      "url": "https://boardgamegeek.com/boardgame/306680/gold"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The oldest, and thus wisest, player begins the game, and play continues clockwise until the end of the game is triggered.",
+      "paraphrase": "The oldest, and thus wisest, player begins."
+    },
+    "game": {
+      "name": "Tajuto",
+      "url": "https://boardgamegeek.com/boardgame/286830/tajuto"
+    }
+  },
+  {
+    "rule": {
+      "quote": "Whoever most recently ate a cooked, green vegetable goes first and play continues to the left.",
+      "paraphrase": "The player who most recently ate a cooked, green vegetable begins."
+    },
+    "game": {
+      "name": "Abandon All Artichokes",
+      "url": "https://boardgamegeek.com/boardgame/302260/abandon-all-artichokes"
+    }
+  },
+  {
+    "rule": {
+      "quote": "The player to have most recently committed regicide goes first.",
+      "paraphrase": "The player who most recently committed regicide begins."
+    },
+    "game": {
+      "name": "Regicide",
+      "url": "https://boardgamegeek.com/boardgame/307002/regicide"
+    }
   }
 ]
 """
