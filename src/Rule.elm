@@ -2483,7 +2483,7 @@ rulesJson =
   {
     "rule": {
       "quote": "The player who has most recently visited a high-rise building is the start player.",
-      "paraphrase": ""
+      "paraphrase": "The player who has most recently visited a high-rise building begins."
     },
     "game": {
       "name": "Skyline",
@@ -2703,7 +2703,7 @@ rulesJson =
   {
     "rule": {
       "quote": "The player that has most recently committed a legal infraction, no matter how minor, is the start player and will go first.",
-      "paraphrase": ""
+      "paraphrase": "The player that has most recently committed a legal infraction, no matter how minor, begins."
     },
     "game": {
       "name": "Grifters",
