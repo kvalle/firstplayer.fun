@@ -934,7 +934,7 @@ rulesJson =
     "rule": {
       "quote": "The game is started by the player who looks most like a pirate.",
       "note": "Translated from the Norwegian rules: Spillet startes av spilleren som ligner mest på en pirat.",
-      "paraphrase": "The player looks most like a pirate begins."
+      "paraphrase": "The player who looks most like a pirate begins."
     },
     "game": {
       "name": "Cartagena",
@@ -3644,7 +3644,7 @@ rulesJson =
     "rule": {
       "quote": "Der goldigste Spieler beginnt.",
       "paraphrase": "The cutest player begins.",
-      "note": "Translated from German."
+      "note": "Translated from German, where the word \\"goldigste\\" means both \\"sweetest\\"/\\"cutest\\" and \\"the most golden\\"."
     },
     "game": {
       "name": "GOLD",
